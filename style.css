@@ -5,6 +5,31 @@ body {
   font-size: 14px; }
 
 .navbar-inverse {
-  background-color: rgba(47, 51, 56, 0.7);
+  background-color: #2f3338;
   background-image: none;
-  border: none; }
+  border: none;
+  border-radius: 0; }
+
+.navbar {
+  min-height: 90px; }
+
+.navbar-nav > li > a {
+  padding-top: 35px;
+  padding-bottom: 31px;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-bottom: 4px solid transparent; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white; }
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: transparent !important;
+  background-image: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border-bottom-color: #48e5e7; }
