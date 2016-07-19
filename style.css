@@ -4,6 +4,11 @@ body {
   font-weight: normal;
   font-size: 14px; }
 
+.navbar-brand {
+  height: 90px;
+  padding-top: 11px;
+  padding-bottom: 11px; }
+
 .navbar-inverse {
   background-color: #2f3338;
   background-image: none;
