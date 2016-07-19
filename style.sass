@@ -41,3 +41,31 @@ body
   -webkit-box-shadow: none !important
   box-shadow: none !important
   border-bottom-color: $secondary_color
+
+
+ul.nav.navbar-nav.navbar-right.language_switcher
+  padding: 35px 0 0 0
+
+ul.nav.navbar-nav.navbar-right.language_switcher::before
+  content: ""
+  width: 1px
+  height: 18px
+  background-color: white
+  float: left
+  margin: 0 18px 0 25px
+
+ul.nav.navbar-nav.navbar-right.language_switcher>li
+  padding: 0 6px
+
+ul.nav.navbar-nav.navbar-right.language_switcher>li>a
+  padding: 0 2px
+  color: white
+  font-weight: 300
+  font-size: 13px
+  text-transform: uppercase
+  border-bottom: 2px solid transparent
+
+ul.nav.navbar-nav.navbar-right.language_switcher>li>a:hover,
+ul.nav.navbar-nav.navbar-right.language_switcher>li>a:focus,
+ul.nav.navbar-nav.navbar-right.language_switcher>li.active>a
+  border-bottom-color: $secondary_color
