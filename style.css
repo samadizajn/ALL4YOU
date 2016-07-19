@@ -1,1 +1,42 @@
+/*Theme Name: ALL4YOU
+ *Theme URI: http://all4you.com.tr
+ *Author: samadesign.net developing team
+ *Author URI: http://samadesign.net/
+ *Description: ALL4YOU, wordpress theme builded in 2016.
+ *Version: 0.1
+ *License: All right by samadesign.net
+ *
+ *Theme builded WordPress cms platform. */
+/* Defaults */
+.cl {
+  clear: both;
+  font-size: 1px;
+}
 
+.tranzited-200 {
+  transition: all 200ms ease 0s;
+  -moz-transition: all 200ms ease 0s;
+  -webkit-transition: all 200ms ease 0s;
+}
+
+.no_inline {
+  display: block;
+  width: 100%;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.navbar {
+  border: none;
+  border-radius: 0;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.absolute {
+  position: absolute !important;
+}
