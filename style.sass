@@ -111,7 +111,7 @@ body
   .header-navigation ul.language_switcher::before
     margin: 0 10px 0 20px
 
-  .header-navigation ul.language_switcher > li
+  .header-navigation ul.language_switcher>li
     padding: 0 3px
 
   .header-navigation ul.language_switcher>li>a
@@ -124,7 +124,8 @@ body
   .header-navigation .navbar-brand img 
     width: auto
     height: 60px
-
+    
+// Mobile version
 @media screen and (max-width: 768px)
   .header-navigation .langswithermob
     display: inline-block
@@ -135,6 +136,18 @@ body
   .header-navigation .navbar-brand
     float: none
     display: inline-block
+
+  .header-navigation .main-nav
+    height: 90vh
+
+  .header-navigation .main-nav>li>a
+    text-align: center
+    font-size: 17px
+    font-weight: 300
+    padding-top: 15px
+    padding-bottom: 15px
+    border-bottom-width: 2px
+
 
 @media screen and (max-width: 460px)
   .header-navigation .navbar-brand

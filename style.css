@@ -2,14 +2,16 @@ body {
   font-family: Roboto, sans-serif;
   color: #2f3338;
   font-weight: normal;
-  font-size: 14px; }
+  font-size: 14px;
+}
 
 .header-navigation {
   min-height: 90px;
   background-color: #2f3338;
   background-image: none;
   border: none;
-  border-radius: 0; }
+  border-radius: 0;
+}
 
 .header-navigation .navbar-nav > li > a {
   padding-top: 35px;
@@ -19,7 +21,8 @@ body {
   font-size: 15px;
   text-transform: uppercase;
   border-bottom: 4px solid transparent;
-  color: white; }
+  color: white;
+}
 
 .header-navigation .navbar-nav > .active > a,
 .header-navigation .navbar-nav > .active > a:hover,
@@ -29,19 +32,23 @@ body {
   background-image: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  border-bottom-color: #48e5e7; }
+  border-bottom-color: #48e5e7;
+}
 
 .header-navigation .navbar-brand {
   height: 90px;
   padding-top: 10px;
-  padding-bottom: 11px; }
+  padding-bottom: 11px;
+}
 
 .header-navigation .navbar-brand img {
   width: auto;
-  height: 70px; }
+  height: 70px;
+}
 
 .header-navigation ul.language_switcher {
-  padding: 35px 0 0 0; }
+  padding: 35px 0 0 0;
+}
 
 .header-navigation ul.language_switcher::before {
   content: "";
@@ -49,10 +56,12 @@ body {
   height: 18px;
   background-color: white;
   float: left;
-  margin: 0 18px 0 25px; }
+  margin: 0 18px 0 25px;
+}
 
 .header-navigation ul.language_switcher > li {
-  padding: 0 6px; }
+  padding: 0 6px;
+}
 
 .header-navigation ul.language_switcher > li > a {
   padding: 0 2px;
@@ -60,84 +69,124 @@ body {
   font-weight: 300;
   font-size: 13px;
   text-transform: uppercase;
-  border-bottom: 2px solid transparent; }
+  border-bottom: 2px solid transparent;
+}
 
 .header-navigation ul.language_switcher > li > a:hover,
 .header-navigation ul.language_switcher > li > a:focus,
 .header-navigation ul.language_switcher > li.active > a {
-  border-bottom-color: #48e5e7; }
+  border-bottom-color: #48e5e7;
+}
 
 .header-navigation .langswithermob {
   float: left;
   padding: 33px 0 35px 33px;
   box-sizing: border-box;
-  display: none; }
+  display: none;
+}
 
 .header-navigation .langswithermob ul.language_switcher {
   display: -webkit-box;
   display: -moz-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 .header-navigation .langswithermob ul.language_switcher::before {
-  display: none; }
+  display: none;
+}
 
 .header-navigation .langswithermob ul.language_switcher li {
-  padding: 0 8px; }
+  padding: 0 8px;
+}
 
 .header-navigation .langswithermob ul.language_switcher li a {
-  font-size: 14px; }
+  font-size: 14px;
+}
 
 .header-navigation .navbar-toggle .icon-bar {
-  background-color: #48e5e7; }
+  background-color: #48e5e7;
+}
 
 .header-navigation .navbar-toggle {
-  padding: 28px 28px 0; }
+  padding: 28px 28px 0;
+}
 
 @media screen and (max-width: 1000px) {
   .header-navigation .navbar-nav > li > a {
     font-size: 13px;
     padding-right: 10px;
-    padding-left: 10px; }
+    padding-left: 10px;
+  }
 
   .header-navigation ul.language_switcher::before {
-    margin: 0 10px 0 20px; }
+    margin: 0 10px 0 20px;
+  }
 
   .header-navigation ul.language_switcher > li {
-    padding: 0 3px; }
+    padding: 0 3px;
+  }
 
   .header-navigation ul.language_switcher > li > a {
     padding: 0;
-    font-size: 12px; }
+    font-size: 12px;
+  }
 
   .header-navigation .navbar-brand {
-    padding-top: 14px; }
+    padding-top: 14px;
+  }
 
   .header-navigation .navbar-brand img {
     width: auto;
-    height: 60px; } }
+    height: 60px;
+  }
+}
 @media screen and (max-width: 768px) {
   .header-navigation .langswithermob {
-    display: inline-block; }
+    display: inline-block;
+  }
 
   .header-navigation .navbar-header {
-    text-align: center; }
+    text-align: center;
+  }
 
   .header-navigation .navbar-brand {
     float: none;
-    display: inline-block; } }
+    display: inline-block;
+  }
+
+  .header-navigation .main-nav {
+    height: 90vh;
+  }
+
+  .header-navigation .main-nav > li > a {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom-width: 2px;
+  }
+}
 @media screen and (max-width: 460px) {
   .header-navigation .navbar-brand {
-    padding-top: 19px; }
+    padding-top: 19px;
+  }
 
   .header-navigation .navbar-brand img {
-    height: 50px; } }
+    height: 50px;
+  }
+}
 @media screen and (max-width: 360px) {
   .header-navigation .langswithermob {
-    padding-left: 20px; }
+    padding-left: 20px;
+  }
 
   .header-navigation .navbar-brand {
-    padding-top: 21px; }
+    padding-top: 21px;
+  }
 
   .header-navigation .navbar-brand img {
-    height: 40px; } }
+    height: 40px;
+  }
+}
