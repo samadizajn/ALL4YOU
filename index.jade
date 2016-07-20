@@ -22,7 +22,7 @@ html(lang="en")
     link(rel='stylesheet', href='style.css')
 
 
-  body(ng-app='all4you')
+  body(ng-app='all4you')(ng-controller='ScreenSize')
     
     nav.navbar.navbar-inverse.header-navigation 
       .container
@@ -62,7 +62,10 @@ html(lang="en")
           | responsive, mobile-first projects on the web.
       p This is some text.
       p This is another text.
-      p Window inner width: {{ windowWidth }}
+
+
+      a(href='', ng-click='goCats = sasa') Toggle Cats
+      img(ng-src='http://i.imgur.com/vkW3Lhe.jpg', ng-show='goCats')
 
 
     // Vendor: Javascripts

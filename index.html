@@ -16,7 +16,7 @@
     <!-- Website CSS Styles-->
     <link rel="stylesheet" href="style.css">
   </head>
-  <body ng-app="all4you">
+  <body ng-app="all4you" ng-controller="ScreenSize">
     <nav class="navbar navbar-inverse header-navigation">
       <div class="container">
         <div class="navbar-header"><a href="#" class="navbar-brand"><img src="assets/images/header-logo.svg"></a></div>
@@ -45,8 +45,7 @@
         </p>
       </div>
       <p>This is some text.</p>
-      <p>This is another text.</p>
-      <p>Window inner width: {{ windowWidth }}</p>
+      <p>This is another text.</p><a href="" ng-click="goCats = sasa">Toggle Cats</a><img ng-src="http://i.imgur.com/vkW3Lhe.jpg" ng-show="goCats">
     </div>
     <!-- Vendor: Javascripts-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
