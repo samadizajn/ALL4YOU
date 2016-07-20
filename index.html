@@ -16,18 +16,16 @@
     <!-- Website CSS Styles-->
     <link rel="stylesheet" href="style.css">
   </head>
-  <body ng-app="all4you">
-    <nav class="navbar navbar-inverse">
+  <body ng-app="all4you" ng-controller="MainCtrl">
+    <nav class="navbar navbar-inverse header-navigation">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" data-toggle="collapse" data-target="#myNavbar" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand"><img src="assets/images/header-logo.png"></a>
-        </div>
+        <div class="navbar-header"><a href="#" class="navbar-brand"><img src="assets/images/header-logo.png"></a></div>
         <div id="myNavbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right language_switcher">
+          <ul ng-if="windowWidth &lt;= 768" class="nav navbar-nav navbar-right language_switcher clearfix">
             <li class="active"><a href="#">En</a></li>
             <li><a href="#">Tr</a></li>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right main-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">About us</a></li>
             <li><a href="#">News</a></li>
@@ -48,6 +46,7 @@
       </div>
       <p>This is some text.</p>
       <p>This is another text.</p>
+      <p>Window inner width: {{ windowWidth }}</p>
     </div>
     <!-- Vendor: Javascripts-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -57,5 +56,6 @@
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
     <!-- Website Javascripts-->
     <script src="assets/js/main.js"></script>
+    <script src="assets/angular/main.js"></script>
   </body>
 </html>

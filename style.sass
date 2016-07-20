@@ -12,46 +12,42 @@ body
   font-size: 14px
 
 // Header
-.navbar-brand
-  height: 90px
-  padding-top: 11px
-  padding-bottom: 11px
-
-.navbar-inverse 
+.header-navigation
+  min-height: 90px
   background-color: $primary_color
   background-image: none 
   border: none
-  border-radius: 0
+  border-radius: 0  
 
-.navbar
-  min-height: 90px
-
-.navbar-nav>li>a
+.header-navigation .navbar-nav>li>a
   padding-top: 35px
   padding-bottom: 31px
   color: white
   font-weight: 500
+  font-size: 15px
   text-transform: uppercase
   border-bottom: 4px solid transparent
-
-.navbar-inverse .navbar-nav>li>a
   color: white
 
-.navbar-inverse .navbar-nav>.active>a, 
-.navbar-inverse .navbar-nav>.active>a:hover, 
-.navbar-inverse .navbar-nav>.active>a:focus,
-.navbar-inverse .navbar-nav>li>a:hover
+.header-navigation .navbar-nav>.active>a, 
+.header-navigation .navbar-nav>.active>a:hover, 
+.header-navigation .navbar-nav>.active>a:focus,
+.header-navigation .navbar-nav>li>a:hover
   background-color: transparent !important
   background-image: none !important
   -webkit-box-shadow: none !important
   box-shadow: none !important
   border-bottom-color: $secondary_color
 
+.header-navigation .navbar-brand
+  height: 90px
+  padding-top: 10px
+  padding-bottom: 11px
 
-ul.nav.navbar-nav.navbar-right.language_switcher
+.header-navigation ul.language_switcher
   padding: 35px 0 0 0
 
-ul.nav.navbar-nav.navbar-right.language_switcher::before
+.header-navigation ul.language_switcher::before
   content: ""
   width: 1px
   height: 18px
@@ -59,10 +55,10 @@ ul.nav.navbar-nav.navbar-right.language_switcher::before
   float: left
   margin: 0 18px 0 25px
 
-ul.nav.navbar-nav.navbar-right.language_switcher>li
+.header-navigation ul.language_switcher>li
   padding: 0 6px
 
-ul.nav.navbar-nav.navbar-right.language_switcher>li>a
+.header-navigation ul.language_switcher>li>a
   padding: 0 2px
   color: white
   font-weight: 300
@@ -70,7 +66,32 @@ ul.nav.navbar-nav.navbar-right.language_switcher>li>a
   text-transform: uppercase
   border-bottom: 2px solid transparent
 
-ul.nav.navbar-nav.navbar-right.language_switcher>li>a:hover,
-ul.nav.navbar-nav.navbar-right.language_switcher>li>a:focus,
-ul.nav.navbar-nav.navbar-right.language_switcher>li.active>a
+.header-navigation ul.language_switcher>li>a:hover,
+.header-navigation ul.language_switcher>li>a:focus,
+.header-navigation ul.language_switcher>li.active>a
   border-bottom-color: $secondary_color
+
+@media screen and (max-width: 1000px) 
+  .header-navigation .navbar-nav>li>a
+    font-size: 13px
+    padding-right: 10px
+    padding-left: 10px
+
+  .header-navigation ul.language_switcher::before
+    margin: 0 10px 0 20px
+
+  .header-navigation ul.language_switcher > li
+    padding: 0 3px
+
+  .header-navigation ul.language_switcher>li>a
+    padding: 0
+    font-size: 12px
+
+
+
+  .header-navigation .navbar-brand
+    padding-top: 14px
+
+  .header-navigation .navbar-brand img 
+    width: auto
+    height: 60px
