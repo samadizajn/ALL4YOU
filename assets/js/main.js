@@ -2,16 +2,31 @@
 jQuery( document ).ready(function( $ ) {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+
+// Function for header Language switcher, 
+// that move element based on screen size.
+(function($) {
+
 var $window = $(window),
-$html = $('.header-navigation ul.language_switcher');
+$target1 = $('.header-navigation ul.language_switcher');
+$target2 = $('.header-navigation .langswithermob');
+$target3 = $('.header-navigation #myNavbar');
 
 $window.resize(function resize() {
-	if ($window.width() < 514) {
-		return $html.addClass('mobile');
+	if ($window.width() < 760) {
+		return $target2.prepend($target1);
 	}
 
-  $html.removeClass('mobile');
+	$target1.prependTo($target3);
+
+
 }).trigger('resize');
+
+
+})(jQuery);
+
+
+
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 });
