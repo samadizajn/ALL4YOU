@@ -7,10 +7,13 @@ body {
 
 .header-navigation {
   min-height: 90px;
-  background-color: #2f3338;
+  background-color: rgba(47, 51, 56, 0.7);
   background-image: none;
   border: none;
   border-radius: 0;
+  margin: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .header-navigation .navbar-nav > li > a {
@@ -110,6 +113,8 @@ body {
 
 .header-navigation .navbar-toggle {
   padding: 28px 28px 0;
+  background-color: transparent !important;
+  border: none !important;
 }
 
 @media screen and (max-width: 1000px) {
@@ -188,5 +193,102 @@ body {
 
   .header-navigation .navbar-brand img {
     height: 40px;
+  }
+}
+.slider {
+  padding: 0;
+  margin: -90px 0 0 0;
+  position: relative;
+  z-index: 0;
+}
+
+.slider #slider-with-blocks-1 {
+  width: 100%;
+  height: 690px;
+}
+
+.slider #slider-with-blocks-1 .rsOverflow {
+  margin: -90px 0 0 0;
+}
+
+.slider .rsContent {
+  color: white;
+  font-size: 24px;
+  line-height: 32px;
+  float: left;
+}
+
+.slider .rsContent .rsMainSlideImage {
+  position: absolute;
+  width: 100%;
+}
+
+.slider .bContainer {
+  position: relative;
+}
+
+.slider .rsABlock {
+  position: relative;
+  display: block;
+  left: auto;
+  top: auto;
+}
+
+.slider .blockHeadline {
+  font-size: 42px;
+  line-height: 50px;
+}
+
+.slider .blockSubHeadline {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.slider .txtCent {
+  text-align: center;
+  width: 100%;
+}
+
+.slider .slide {
+  background: #f06b50;
+}
+.slider .slide .bContainer {
+  top: 36%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 960px) {
+  .rsContent {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .blockHeadline {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .blockSubHeadline {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .royalSlider, .rsOverflow {
+    height: 330px !important;
+  }
+
+  .rsContent {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .blockHeadline {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .blockSubHeadline {
+    font-size: 22px;
+    line-height: 32px;
   }
 }
