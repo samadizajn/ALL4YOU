@@ -221,6 +221,7 @@ body {
 .slider .rsContent .rsMainSlideImage {
   position: absolute;
   width: 100%;
+  opacity: 0.6;
 }
 
 .slider .bContainer {
@@ -250,7 +251,7 @@ body {
 }
 
 .slider .slide {
-  background: #f06b50;
+  background: #2f3338;
 }
 .slider .slide .bContainer {
   top: 36%;
