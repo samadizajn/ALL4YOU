@@ -16,13 +16,12 @@
     <!-- Website CSS Styles-->
     <link rel="stylesheet" href="style.css">
   </head>
-  <body ng-app="all4you" ng-controller="MainCtrl">
+  <body ng-app="all4you">
     <nav class="navbar navbar-inverse header-navigation">
       <div class="container">
-        <div class="navbar-header"><a href="#" class="navbar-brand">
-            <!-- img(src='assets/images/header-logo.svg')--></a></div>
+        <div class="navbar-header"><a href="#" class="navbar-brand"><img src="assets/images/header-logo.svg"></a></div>
         <div id="myNavbar" class="collapse navbar-collapse">
-          <ul ng-if="windowWidth &lt;= 768" class="nav navbar-nav navbar-right language_switcher clearfix">
+          <ul class="nav navbar-nav navbar-right language_switcher">
             <li class="active"><a href="#">En</a></li>
             <li><a href="#">Tr</a></li>
           </ul>
@@ -53,8 +52,12 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <!-- Vendor: Angular, followed by our custom Javascripts-->
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+    <script>
+      var app = angular.module('myapp', ['ngRoute']);    
+      
+    </script>
     <!-- Website Javascripts-->
     <script src="assets/js/main.js"></script>
     <script src="assets/angular/main.js"></script>

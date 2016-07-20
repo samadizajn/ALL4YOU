@@ -22,18 +22,18 @@ html(lang="en")
     link(rel='stylesheet', href='style.css')
 
 
-  body(ng-app='all4you')(ng-controller='MainCtrl')
+  body(ng-app='all4you')
     
     nav.navbar.navbar-inverse.header-navigation 
       .container
         .navbar-header
 
           a.navbar-brand(href='#')
-            // img(src='assets/images/header-logo.svg')
+            img(src='assets/images/header-logo.svg')
 
         #myNavbar.collapse.navbar-collapse
 
-          ul.nav.navbar-nav.navbar-right.language_switcher.clearfix(ng-if='windowWidth <= 768')
+          ul.nav.navbar-nav.navbar-right.language_switcher
             li.active
               a(href='#') En
             li
@@ -70,9 +70,11 @@ html(lang="en")
     script(src='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js')
 
     // Vendor: Angular, followed by our custom Javascripts
-    script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js')
-    script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js')
     
+    script.
+      var app = angular.module('myapp', ['ngRoute']);    
 
     // Website Javascripts
     script(src='assets/js/main.js')
