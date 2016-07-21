@@ -1,11 +1,11 @@
 {
   ".git/COMMIT_EDITMSG": {
-    "size": 5,
-    "date": "2016-07-21T12:59:43.059Z"
+    "size": 6,
+    "date": "2016-07-21T19:00:29.910Z"
   },
   ".git/config": {
     "size": 331,
-    "date": "2016-07-21T13:10:53.892Z"
+    "date": "2016-07-21T19:00:30.239Z"
   },
   ".git/description": {
     "size": 73,
@@ -13,7 +13,7 @@
   },
   ".git/FETCH_HEAD": {
     "size": 99,
-    "date": "2016-07-21T13:15:30.321Z"
+    "date": "2016-07-21T19:00:30.571Z"
   },
   ".git/HEAD": {
     "size": 23,
@@ -56,24 +56,24 @@
     "date": "2016-07-21T08:10:24.600Z"
   },
   ".git/index": {
-    "size": 6587,
-    "date": "2016-07-21T13:15:30.767Z"
+    "size": 6531,
+    "date": "2016-07-21T19:00:30.906Z"
   },
   ".git/info/exclude": {
     "size": 240,
     "date": "2016-07-21T08:10:25.224Z"
   },
   ".git/logs/HEAD": {
-    "size": 6821,
-    "date": "2016-07-21T12:59:43.918Z"
+    "size": 6964,
+    "date": "2016-07-21T19:00:31.260Z"
   },
   ".git/logs/refs/heads/master": {
-    "size": 5317,
-    "date": "2016-07-21T12:59:44.387Z"
+    "size": 5460,
+    "date": "2016-07-21T19:00:31.601Z"
   },
   ".git/logs/refs/remotes/origin/master": {
-    "size": 4142,
-    "date": "2016-07-21T13:10:54.911Z"
+    "size": 4286,
+    "date": "2016-07-21T19:00:31.922Z"
   },
   ".git/objects/01/bdad407b87183aa6ede2ba9e9981e1664d8072": {
     "size": 430,
@@ -1001,7 +1001,7 @@
   },
   ".git/objects/d0/cdc7580a53fa9564e5e2d2ffbbd77c1999354f": {
     "size": 139,
-    "date": "2016-07-21T08:12:00.783Z"
+    "date": "2016-07-21T19:00:32.522Z"
   },
   ".git/objects/d1/5f3f8aea937b9c05c98667cbc7726dd22a9df0": {
     "size": 1077,
@@ -1189,11 +1189,11 @@
   },
   ".git/refs/heads/master": {
     "size": 41,
-    "date": "2016-07-21T12:59:44.777Z"
+    "date": "2016-07-21T19:00:32.826Z"
   },
   ".git/refs/remotes/origin/master": {
     "size": 41,
-    "date": "2016-07-21T13:10:55.565Z"
+    "date": "2016-07-21T19:00:33.149Z"
   },
   "assets/html/home-slider-html.html": {
     "size": 884,
@@ -1356,12 +1356,12 @@
     "date": "2016-07-21T08:12:38.759Z"
   },
   "index.html": {
-    "size": 5362,
-    "date": "2016-07-21T13:16:49.303Z"
+    "size": 5505,
+    "date": "2016-07-21T19:00:34.095Z"
   },
   "style.css": {
-    "size": 7028,
-    "date": "2016-07-21T13:13:34.687Z"
+    "size": 7831,
+    "date": "2016-07-21T19:00:34.523Z"
   },
   ".git/objects/2f/33d576661ce605b017a63670125b4c748f58ea": {
     "size": 1095,
@@ -1481,7 +1481,7 @@
   },
   ".git/objects/8a/0b8987a0bf8ea11de347df1b5534be66577013": {
     "size": 292,
-    "date": "2016-07-21T12:59:38.761Z"
+    "date": "2016-07-21T19:00:32.221Z"
   },
   ".git/objects/94/95f6a3acf5b41563a2d7a6b6faa02f628004e8": {
     "size": 275,
@@ -1509,10 +1509,50 @@
   },
   "assets/angular/main.min.js": {
     "size": 175,
-    "date": "2016-07-21T13:18:45.435Z"
+    "date": "2016-07-21T19:00:33.467Z"
   },
   "assets/js/main.min.js": {
     "size": 608,
-    "date": "2016-07-21T13:18:45.828Z"
+    "date": "2016-07-21T19:00:33.771Z"
+  },
+  ".git/objects/0c/fb1efccfd38938e2357cc8d5ce4537622bd64c": {
+    "size": 78,
+    "date": "2016-07-21T19:00:26.551Z"
+  },
+  ".git/objects/3b/f8e4388644af5ad579a7409d46970124cc7553": {
+    "size": 78,
+    "date": "2016-07-21T19:00:26.860Z"
+  },
+  ".git/objects/a3/b59389785b6ed2e4008ebbbe5fe30755e96f7a": {
+    "size": 1870,
+    "date": "2016-07-21T19:00:27.224Z"
+  },
+  ".git/objects/d2/cdf6af75a48bf05bde989209743368c725dd29": {
+    "size": 13595,
+    "date": "2016-07-21T19:00:27.613Z"
+  },
+  ".git/objects/d7/57af4d71b0053c8cf45e2b5a92996831379714": {
+    "size": 1097,
+    "date": "2016-07-21T19:00:27.944Z"
+  },
+  ".git/objects/e8/34d81f90c6bc4426bbdcb6aef679f189dfbce2": {
+    "size": 276,
+    "date": "2016-07-21T19:00:28.267Z"
+  },
+  ".git/objects/f5/c0f545b4ca0f9aed1f05ee6201bae0fb268b86": {
+    "size": 149,
+    "date": "2016-07-21T19:00:28.623Z"
+  },
+  ".git/objects/f8/b7151249c63528f0b5a6b0a5ad2aa26eeb56b1": {
+    "size": 197,
+    "date": "2016-07-21T19:00:28.943Z"
+  },
+  "assets/images/slder-left-arrow.png": {
+    "size": 232,
+    "date": "2016-07-21T19:00:29.272Z"
+  },
+  "assets/images/slder-right-arrow.png": {
+    "size": 218,
+    "date": "2016-07-21T19:00:29.583Z"
   }
 }

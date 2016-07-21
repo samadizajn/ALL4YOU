@@ -228,8 +228,19 @@ body
   width: 100%
   opacity: 0.6
 
+.slider .slide
+  background: $primary_color
+
 .slider .bContainer
+  top: 43%
+  width: 420px
+  margin: 0 auto
+  text-align: center 
   position: relative
+
+.slider .txtCent
+  text-align: center
+  width: 100%
 
 .slider .rsABlock
   position: relative
@@ -249,16 +260,44 @@ body
   font-size: 12px
   line-height: 40px
 
-.slider .txtCent
+.slider .blockBottomline
   text-align: center
-  width: 100%
 
-.slider .slide
-  background: $primary_color
-  .bContainer
-    top: 43%
-    width: 420px
-    margin: 0 auto
+.slider .blockBottomline::after
+  content: ""
+  width: 47px
+  height: 6px
+  background-color: $secondary_color
+  display: inline-block
+
+.slider .rsMinW .rsArrowLeft,
+.slider .rsMinW .rsArrowRight
+  bottom: 49%
+  width: 32px
+  height: 100px
+  background-color: $primary_color_transparent
+  background-repeat: no-repeat
+  background-position: center   
+
+.slider .rsMinW .rsArrowLeft
+  right: auto
+  left: 2px
+  background-image: url("assets/images/slder-left-arrow.png")
+
+
+.slider .rsMinW .rsArrowRight
+  right: 2px
+  background-image: url("assets/images/slder-right-arrow.png")  
+
+.slider .rsMinW .rsArrowIcn
+  display: none
+
+.slider .rsMinW .rsBullets
+  bottom: auto
+  top: 90px
+  right: 15px
+
+
 
 @media screen and (min-width: 1600px) and (max-width: 2000px)
   .slider #slider-with-blocks-1

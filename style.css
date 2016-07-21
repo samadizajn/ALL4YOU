@@ -255,8 +255,21 @@ body {
   opacity: 0.6;
 }
 
+.slider .slide {
+  background: #2f3338;
+}
+
 .slider .bContainer {
+  top: 43%;
+  width: 420px;
+  margin: 0 auto;
+  text-align: center;
   position: relative;
+}
+
+.slider .txtCent {
+  text-align: center;
+  width: 100%;
 }
 
 .slider .rsABlock {
@@ -281,18 +294,47 @@ body {
   line-height: 40px;
 }
 
-.slider .txtCent {
+.slider .blockBottomline {
   text-align: center;
-  width: 100%;
 }
 
-.slider .slide {
-  background: #2f3338;
+.slider .blockBottomline::after {
+  content: "";
+  width: 47px;
+  height: 6px;
+  background-color: #48e5e7;
+  display: inline-block;
 }
-.slider .slide .bContainer {
-  top: 43%;
-  width: 420px;
-  margin: 0 auto;
+
+.slider .rsMinW .rsArrowLeft,
+.slider .rsMinW .rsArrowRight {
+  bottom: 49%;
+  width: 32px;
+  height: 100px;
+  background-color: rgba(47, 51, 56, 0.7);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider .rsMinW .rsArrowLeft {
+  right: auto;
+  left: 2px;
+  background-image: url("assets/images/slder-left-arrow.png");
+}
+
+.slider .rsMinW .rsArrowRight {
+  right: 2px;
+  background-image: url("assets/images/slder-right-arrow.png");
+}
+
+.slider .rsMinW .rsArrowIcn {
+  display: none;
+}
+
+.slider .rsMinW .rsBullets {
+  bottom: auto;
+  top: 90px;
+  right: 15px;
 }
 
 @media screen and (min-width: 1600px) and (max-width: 2000px) {
