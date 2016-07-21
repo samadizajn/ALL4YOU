@@ -1,3 +1,9 @@
+.tranzited-200 {
+  transition: all 200ms ease 0s;
+  -moz-transition: all 200ms ease 0s;
+  -webkit-transition: all 200ms ease 0s;
+}
+
 body {
   font-family: Roboto, sans-serif;
   color: #2f3338;
@@ -14,6 +20,10 @@ body {
   margin: 0;
   position: relative;
   z-index: 1;
+}
+
+.header-navigation.in {
+  background-color: #2f3338;
 }
 
 .header-navigation .navbar-nav > li > a {
@@ -112,7 +122,7 @@ body {
 }
 
 .header-navigation .navbar-toggle {
-  padding: 28px 28px 0;
+  padding: 28px 28px 31px 0;
   background-color: transparent !important;
   border: none !important;
 }
@@ -180,6 +190,18 @@ body {
     top: 89px;
     right: 0;
     background-color: #2f3338;
+    border: 0;
+    -webkit-overflow-scrolling: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .header-navigation .navbar-nav > .active > a,
+  .header-navigation .navbar-nav > .active > a:hover,
+  .header-navigation .navbar-nav > .active > a:focus,
+  .header-navigation .navbar-nav > li > a:hover {
+    border-bottom: transparent;
+    font-weight: bold;
   }
 }
 @media screen and (max-width: 460px) {
@@ -244,15 +266,19 @@ body {
   top: auto;
 }
 
+.slider .blockUpHeadline {
+  font-size: 14px;
+  font-weight: 300;
+}
+
 .slider .blockHeadline {
-  font-size: 12px;
-  line-height: 50px;
+  font-size: 23px;
+  font-weight: 700;
 }
 
 .slider .blockSubHeadline {
   font-size: 12px;
   line-height: 40px;
-  display: none;
 }
 
 .slider .txtCent {
@@ -264,7 +290,9 @@ body {
   background: #2f3338;
 }
 .slider .slide .bContainer {
-  top: 36%;
+  top: 43%;
+  width: 420px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 1600px) and (max-width: 2000px) {
@@ -293,36 +321,20 @@ body {
   }
 }
 @media screen and (min-width: 0px) and (max-width: 769px) {
-  .header-navigation {
-    background-color: #2f3338;
+  .slider #slider-with-blocks-1 {
+    height: 100vh;
   }
 
-  .slider {
-    margin-top: 0;
+  .slider .rsContent .rsMainSlideImage {
+    width: auto;
+    height: 100vh;
+    left: -50%;
   }
 
-  .slider #slider-with-blocks-1 .rsOverflow {
-    margin-top: 0;
-  }
-}
-@media screen and (min-width: 745px) and (max-width: 769px) {
-  .slider #slider-with-blocks-1 {
-    height: 420px;
-  }
-}
-@media screen and (min-width: 670px) and (max-width: 745px) {
-  .slider #slider-with-blocks-1 {
-    height: 375px;
-  }
-}
-@media screen and (min-width: 488px) and (max-width: 670px) {
-  .slider #slider-with-blocks-1 {
-    height: 275px;
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 488px) {
-  .slider #slider-with-blocks-1 {
-    height: 200px;
+  .slider .slide .bContainer {
+    width: auto;
+    top: 35%;
+    padding: 0 20%;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {

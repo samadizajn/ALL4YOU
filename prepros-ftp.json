@@ -1,11 +1,11 @@
 {
   ".git/COMMIT_EDITMSG": {
     "size": 5,
-    "date": "2016-07-21T09:19:45.675Z"
+    "date": "2016-07-21T09:35:48.720Z"
   },
   ".git/config": {
     "size": 331,
-    "date": "2016-07-21T08:10:20.581Z"
+    "date": "2016-07-21T09:35:49.041Z"
   },
   ".git/description": {
     "size": 73,
@@ -13,7 +13,7 @@
   },
   ".git/FETCH_HEAD": {
     "size": 99,
-    "date": "2016-07-21T09:29:02.189Z"
+    "date": "2016-07-21T12:56:01.784Z"
   },
   ".git/HEAD": {
     "size": 23,
@@ -57,23 +57,23 @@
   },
   ".git/index": {
     "size": 6395,
-    "date": "2016-07-21T09:19:46.313Z"
+    "date": "2016-07-21T12:53:28.367Z"
   },
   ".git/info/exclude": {
     "size": 240,
     "date": "2016-07-21T08:10:25.224Z"
   },
   ".git/logs/HEAD": {
-    "size": 6537,
-    "date": "2016-07-21T09:19:46.682Z"
+    "size": 6679,
+    "date": "2016-07-21T09:35:50.123Z"
   },
   ".git/logs/refs/heads/master": {
-    "size": 5033,
-    "date": "2016-07-21T09:19:47.007Z"
+    "size": 5175,
+    "date": "2016-07-21T09:35:50.448Z"
   },
   ".git/logs/refs/remotes/origin/master": {
-    "size": 3854,
-    "date": "2016-07-21T08:10:26.253Z"
+    "size": 3998,
+    "date": "2016-07-21T09:35:50.811Z"
   },
   ".git/objects/01/bdad407b87183aa6ede2ba9e9981e1664d8072": {
     "size": 430,
@@ -1189,11 +1189,11 @@
   },
   ".git/refs/heads/master": {
     "size": 41,
-    "date": "2016-07-21T09:19:47.336Z"
+    "date": "2016-07-21T09:35:51.082Z"
   },
   ".git/refs/remotes/origin/master": {
     "size": 41,
-    "date": "2016-07-21T08:12:18.975Z"
+    "date": "2016-07-21T09:35:51.396Z"
   },
   "assets/angular/main.js": {
     "size": 293,
@@ -1228,20 +1228,20 @@
     "date": "2016-07-21T08:12:23.128Z"
   },
   "assets/jade/home-slider-html.jade": {
-    "size": 908,
-    "date": "2016-07-21T09:19:47.652Z"
+    "size": 829,
+    "date": "2016-07-21T12:53:28.694Z"
   },
   "assets/jade/home-slider-scripts.jade": {
     "size": 1040,
     "date": "2016-07-21T08:17:01.272Z"
   },
   "assets/js/main.js": {
-    "size": 772,
-    "date": "2016-07-21T08:12:24.228Z"
+    "size": 1227,
+    "date": "2016-07-21T12:53:28.998Z"
   },
   "assets/js/min/main.min.js": {
-    "size": 325,
-    "date": "2016-07-21T08:12:24.565Z"
+    "size": 608,
+    "date": "2016-07-21T12:53:29.315Z"
   },
   "assets/royalslider/.DS_Store": {
     "size": 10244,
@@ -1380,12 +1380,12 @@
     "date": "2016-07-21T08:12:38.759Z"
   },
   "index.html": {
-    "size": 5472,
-    "date": "2016-07-21T09:19:47.977Z"
+    "size": 5354,
+    "date": "2016-07-21T12:53:29.650Z"
   },
   "index.jade": {
     "size": 2968,
-    "date": "2016-07-21T08:24:26.697Z"
+    "date": "2016-07-21T12:53:30.019Z"
   },
   "README.html": {
     "size": 693,
@@ -1396,16 +1396,16 @@
     "date": "2016-07-21T08:12:39.959Z"
   },
   "style.css": {
-    "size": 6773,
-    "date": "2016-07-21T09:29:03.022Z"
+    "size": 7013,
+    "date": "2016-07-21T12:56:02.663Z"
   },
   "style.sass": {
-    "size": 6480,
-    "date": "2016-07-21T09:29:03.385Z"
+    "size": 6735,
+    "date": "2016-07-21T12:56:03.051Z"
   },
   "prepros-ftp.json": {
-    "size": 42875,
-    "date": "2016-07-21T09:29:02.612Z"
+    "size": 44183,
+    "date": "2016-07-21T12:56:02.327Z"
   },
   ".git/objects/2f/33d576661ce605b017a63670125b4c748f58ea": {
     "size": 1095,
@@ -1438,5 +1438,49 @@
   ".git/objects/e2/23e2a6cfef1545e71ca805488e352dfdd1f67e": {
     "size": 12265,
     "date": "2016-07-21T09:19:45.351Z"
+  },
+  ".git/objects/21/3da20e8ec4caf3899d721648f3ea7af428a8e1": {
+    "size": 1560,
+    "date": "2016-07-21T09:35:45.429Z"
+  },
+  ".git/objects/35/19a89c6a0b016cbe9cafec133c7da667411fe9": {
+    "size": 149,
+    "date": "2016-07-21T09:35:45.681Z"
+  },
+  ".git/objects/84/61d2fb285899548de1487cd27dfda7efebffe9": {
+    "size": 12640,
+    "date": "2016-07-21T09:35:46.176Z"
+  },
+  ".git/objects/8e/7fb34427f01da971a5db665107a2d367bbde46": {
+    "size": 197,
+    "date": "2016-07-21T09:35:46.515Z"
+  },
+  ".git/objects/b1/7273cc4ea6148fc79c6270b6b3ea7915c18246": {
+    "size": 99,
+    "date": "2016-07-21T09:35:46.840Z"
+  },
+  ".git/objects/be/712d0032c84172b8fb30cf760169eddcc43ffc": {
+    "size": 268,
+    "date": "2016-07-21T09:35:47.159Z"
+  },
+  ".git/objects/d8/7c7063a5cfaa01fcf8d81a5018353acb566688": {
+    "size": 1804,
+    "date": "2016-07-21T09:35:47.525Z"
+  },
+  ".git/objects/e9/37bf692570f21c1c40e7bb86a1fb9d1055b532": {
+    "size": 1613,
+    "date": "2016-07-21T09:35:48.010Z"
+  },
+  ".git/objects/fb/9c0d244999c212c7eced525373d9bf955bbffe": {
+    "size": 275,
+    "date": "2016-07-21T09:35:48.359Z"
+  },
+  "assets/images/slider/2.jpg": {
+    "size": 332326,
+    "date": "2016-07-21T12:53:26.451Z"
+  },
+  "assets/images/slider/3.jpg": {
+    "size": 293532,
+    "date": "2016-07-21T12:53:27.636Z"
   }
 }
