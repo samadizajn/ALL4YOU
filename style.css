@@ -146,7 +146,7 @@ body {
     height: 60px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header-navigation .langswithermob {
     display: inline-block;
   }
@@ -171,6 +171,15 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     border-bottom-width: 2px;
+  }
+
+  .header-navigation .navbar-collapse,
+  .header-navigation .navbar-form {
+    position: absolute;
+    left: 0;
+    top: 89px;
+    right: 0;
+    background-color: #2f3338;
   }
 }
 @media screen and (max-width: 460px) {
@@ -236,13 +245,14 @@ body {
 }
 
 .slider .blockHeadline {
-  font-size: 42px;
+  font-size: 12px;
   line-height: 50px;
 }
 
 .slider .blockSubHeadline {
-  font-size: 32px;
+  font-size: 12px;
   line-height: 40px;
+  display: none;
 }
 
 .slider .txtCent {
@@ -264,52 +274,59 @@ body {
 }
 @media screen and (min-width: 1366px) and (max-width: 1600px) {
   .slider #slider-with-blocks-1 {
-    height: 790px;
+    height: 770px;
   }
 }
-@media screen and (min-width: 960px) and (max-width: 1366px) {
+@media screen and (min-width: 1050px) and (max-width: 1366px) {
   .slider #slider-with-blocks-1 {
     height: 590px;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 960px) {
+@media screen and (min-width: 855px) and (max-width: 1050px) {
   .slider #slider-with-blocks-1 {
-    height: 490px;
+    height: 480px;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 960px) {
-  .rsContent {
-    font-size: 22px;
-    line-height: 28px;
-  }
-
-  .blockHeadline {
-    font-size: 32px;
-    line-height: 32px;
-  }
-
-  .blockSubHeadline {
-    font-size: 26px;
-    line-height: 32px;
+@media screen and (min-width: 769px) and (max-width: 855px) {
+  .slider #slider-with-blocks-1 {
+    height: 420px;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 500px) {
-  .royalSlider, .rsOverflow {
-    height: 330px !important;
+@media screen and (min-width: 0px) and (max-width: 769px) {
+  .header-navigation {
+    background-color: #2f3338;
   }
 
-  .rsContent {
-    font-size: 18px;
-    line-height: 26px;
+  .slider {
+    margin-top: 0;
   }
 
-  .blockHeadline {
-    font-size: 24px;
-    line-height: 32px;
+  .slider #slider-with-blocks-1 .rsOverflow {
+    margin-top: 0;
   }
-
-  .blockSubHeadline {
-    font-size: 22px;
-    line-height: 32px;
+}
+@media screen and (min-width: 745px) and (max-width: 769px) {
+  .slider #slider-with-blocks-1 {
+    height: 420px;
+  }
+}
+@media screen and (min-width: 670px) and (max-width: 745px) {
+  .slider #slider-with-blocks-1 {
+    height: 375px;
+  }
+}
+@media screen and (min-width: 488px) and (max-width: 670px) {
+  .slider #slider-with-blocks-1 {
+    height: 275px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 488px) {
+  .slider #slider-with-blocks-1 {
+    height: 200px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .slider {
+    display: none;
   }
 }
