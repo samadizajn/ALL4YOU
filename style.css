@@ -308,7 +308,7 @@ body {
 
 .slider .rsMinW .rsArrowLeft,
 .slider .rsMinW .rsArrowRight {
-  bottom: 49%;
+  bottom: 44%;
   width: 32px;
   height: 100px;
   background-color: rgba(47, 51, 56, 0.7);
