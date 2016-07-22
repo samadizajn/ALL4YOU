@@ -46,8 +46,27 @@ $window.resize(function resize() {
 
 })(jQuery);
 
+// Determine element (portraint or landscape) status by class, 
+(function($) {
 
+$( window ).on("load resize", function() {
+	var winHeight = $(window).height();
+	var winWidth = $(window).width();
 
+	// landscape
+	if ( winWidth < 1280 && winWidth > (winHeight) ) {
+		$('.slider').removeClass('portrait');
+		$('.slider').addClass('landscape'); 
+	}
+
+	// portrait
+	if ( winWidth < 1280 && winHeight > (winWidth) ) {
+		$('.slider').removeClass('landscape');
+		$('.slider').addClass('portrait'); 
+	}
+});
+
+})(jQuery);
 
 
 

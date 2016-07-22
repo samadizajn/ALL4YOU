@@ -325,10 +325,14 @@ body
   .slider #slider-with-blocks-1
     height: 100vh
 
-  .slider .rsContent .rsMainSlideImage
+  .slider.portrait .rsContent .rsMainSlideImage
     width: auto
     height: 100vh
     left: -50%
+
+  .slider.landscape .rsContent .rsMainSlideImage
+    width: auto
+    height: 100vh    
 
   .slider .slide .bContainer
     width: auto
@@ -424,3 +428,21 @@ body
   color: #fff
   background-color: $secondary_color
   border-color: $secondary_color
+
+// Mobile version
+@media screen and (min-width: 0px) and (max-width: 991px)
+  .content_block .box
+    margin-bottom: 65px
+
+  .content_block .blockHead .blockUpHeadline
+    font-size: 14px
+
+  .content_block .blockHead .blockHeadline
+    font-size: 28px
+
+  .content_block .box .box-title h3
+    font-size: 20px
+    line-height: 27px
+
+  .content_block .box .box-content p
+    font-size: 15px
