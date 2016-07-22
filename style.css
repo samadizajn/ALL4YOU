@@ -553,10 +553,10 @@ body {
 }
 .LatestNews_block {
   background-color: whitesmoke;
-  margin-top: -130px;
-  padding-top: 130px;
-  margin-bottom: -130px;
-  padding-bottom: 130px;
+  margin-top: -133px;
+  padding-top: 133px;
+  margin-bottom: -133px;
+  padding-bottom: 133px;
 }
 
 .LatestNews_block .blockHead {
@@ -565,7 +565,7 @@ body {
 
 .LatestNews_block .blockContent {
   display: inline-block;
-  width: 100;
+  width: 100%;
 }
 
 .LatestNews_block .blockContent ul {
@@ -585,7 +585,7 @@ body {
   text-align: center;
   border-bottom: 1px solid rgba(47, 51, 56, 0.1);
   display: block;
-  padding: 23px 0;
+  padding: 16px 40px;
   text-decoration: none;
   color: #2f3338;
   background-color: rgba(221, 223, 225, 0);
@@ -641,6 +641,21 @@ body {
   font-weight: 400;
 }
 
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  .LatestNews_block {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .Faq_block {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .Faq_block .blockContent {
+    padding: 0 40px;
+  }
+}
 .button {
   text-decoration: none;
   outline: none;
