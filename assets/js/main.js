@@ -26,6 +26,25 @@ $trigger.click(function () {
 })(jQuery);
 
 
+// Determine element (portraint or landscape) status by class, 
+(function($) {
+
+$( window ).on("load", function() {
+	var winHeight = $(window).height();
+	var winWidth = $(window).width();
+
+	// Give slider height based on window height
+	if ( winWidth < 769 ) {
+		$('.slider #slider-with-blocks-1').css('height', winHeight);
+		$('.slider.portrait .rsContent .rsMainSlideImage').css('height', winHeight);
+		 
+	}	
+});
+
+})(jQuery);
+
+
+
 // Function for header Language switcher, 
 // that move element based on screen size.
 (function($) {
@@ -66,6 +85,7 @@ $( window ).on("load resize", function() {
 		$('.slider').removeClass('landscape');
 		$('.slider').addClass('portrait'); 
 	}
+
 });
 
 })(jQuery);

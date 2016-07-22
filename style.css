@@ -367,19 +367,13 @@ body {
   }
 }
 @media screen and (min-width: 0px) and (max-width: 769px) {
-  .slider #slider-with-blocks-1 {
-    height: 100vh;
-  }
-
   .slider.portrait .rsContent .rsMainSlideImage {
     width: auto;
-    height: 100vh;
     left: -50%;
   }
 
   .slider.landscape .rsContent .rsMainSlideImage {
     width: auto;
-    height: 100vh;
   }
 
   .slider .slide .bContainer {
@@ -613,7 +607,7 @@ body {
 
 .Faq_block {
   background-color: white;
-  padding-top: 110px;
+  padding-top: 68px;
 }
 
 .Faq_block .blockHead {
