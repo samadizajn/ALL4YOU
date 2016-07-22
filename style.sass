@@ -1,8 +1,9 @@
 // variables
 $primary_font: Roboto, sans-serif
 $primary_color: #2f3338
-$primary_color_transparent: rgba(47,51,56,0.70)
+$primary_color_trans_70: rgba(47,51,56,0.70)
 $secondary_color: #48e5e7
+$secondary_color_trans_0: rgba(72, 229, 231, 0)
 
 // Defaults
 .tranzited-200
@@ -22,7 +23,7 @@ body
 // Header
 .header-navigation
   min-height: 90px
-  background-color: $primary_color_transparent
+  background-color: $primary_color_trans_70
   background-image: none 
   border: none
   border-radius: 0
@@ -275,7 +276,7 @@ body
   bottom: 44%
   width: 32px
   height: 100px
-  background-color: $primary_color_transparent
+  background-color: $primary_color_trans_70
   background-repeat: no-repeat
   background-position: center   
 
@@ -337,3 +338,89 @@ body
 @media screen and (min-width: 0px) and (max-width: 320px)    
   .slider
     display: none
+
+// Homepage Content blocks
+
+.services_block
+  background-image: url("assets/images/services-block-bg.png")
+  background-repeat: no-repeat
+  background-size: cover
+  padding: 133px 0
+
+.content_block .blockHead
+  text-align: center
+  margin-bottom: 80px
+
+.content_block .blockHead .blockUpHeadline
+  font-size: 17px
+  font-weight: 300
+
+.content_block .blockHead .blockHeadline
+  font-size: 44px
+  font-weight: 700
+  margin: 0
+  padding: 0
+
+.content_block .blockHead .blockHeadBottomline
+  text-align: center
+
+.content_block .blockHead .blockHeadBottomline::after
+  content: ""
+  width: 47px
+  height: 6px
+  background-color: $secondary_color
+  display: inline-block
+
+.content_block .box .box-image
+  text-align: center
+  margin-bottom: 2px
+
+.content_block .box .box-title
+  text-align: center
+  margin-bottom: 10px
+
+.content_block .box .box-title h3 
+  font-size: 23px
+  font-weight: 700
+  line-height: 30px
+  margin: 0
+
+.content_block .box .box-content
+  text-align: center
+  padding: 0
+  margin-bottom: 24px
+
+.content_block .box .box-content p
+  font-size: 16px
+  font-weight: 400
+  line-height: 25px
+  margin: 0
+
+.content_block .box .box-button
+  text-align: center
+  padding: 0
+  margin: 0 0 26px 0  
+
+// Buttons
+.button
+  text-decoration: none
+  outline: none
+  display: inline-block
+
+.button:hover
+  text-decoration: none  
+
+
+.button.button-primary
+  font-size: 13px
+  font-weight: 300
+  color: $primary_color
+  background-color: $secondary_color_trans_0
+  text-transform: uppercase
+  border: 2px solid #000
+  padding: 10px 30px
+
+.button.button-primary:hover
+  color: #fff
+  background-color: $secondary_color
+  border-color: $secondary_color

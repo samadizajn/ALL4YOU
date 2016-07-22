@@ -6,6 +6,7 @@ jQuery( document ).ready(function( $ ) {
 (function($) {
 	$(".header-navigation").addClass("tranzited-200");
 	$(".header-navigation ul li a").addClass("tranzited-200");
+	$(".button").addClass("tranzited-200");
 
 })(jQuery);
 

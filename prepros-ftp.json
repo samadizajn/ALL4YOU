@@ -1,7 +1,7 @@
 {
   ".git/COMMIT_EDITMSG": {
-    "size": 6,
-    "date": "2016-07-21T19:00:29.910Z"
+    "size": 5,
+    "date": "2016-07-21T19:05:08.208Z"
   },
   ".git/config": {
     "size": 331,
@@ -13,7 +13,7 @@
   },
   ".git/FETCH_HEAD": {
     "size": 99,
-    "date": "2016-07-21T19:00:30.571Z"
+    "date": "2016-07-21T19:08:38.514Z"
   },
   ".git/HEAD": {
     "size": 23,
@@ -56,20 +56,20 @@
     "date": "2016-07-21T08:10:24.600Z"
   },
   ".git/index": {
-    "size": 6531,
-    "date": "2016-07-21T19:00:30.906Z"
+    "size": 6739,
+    "date": "2016-07-21T19:08:38.870Z"
   },
   ".git/info/exclude": {
     "size": 240,
     "date": "2016-07-21T08:10:25.224Z"
   },
   ".git/logs/HEAD": {
-    "size": 6964,
-    "date": "2016-07-21T19:00:31.260Z"
+    "size": 7106,
+    "date": "2016-07-21T19:05:09.276Z"
   },
   ".git/logs/refs/heads/master": {
-    "size": 5460,
-    "date": "2016-07-21T19:00:31.601Z"
+    "size": 5602,
+    "date": "2016-07-21T19:05:09.608Z"
   },
   ".git/logs/refs/remotes/origin/master": {
     "size": 4286,
@@ -1189,23 +1189,11 @@
   },
   ".git/refs/heads/master": {
     "size": 41,
-    "date": "2016-07-21T19:00:32.826Z"
+    "date": "2016-07-21T19:05:09.942Z"
   },
   ".git/refs/remotes/origin/master": {
     "size": 41,
     "date": "2016-07-21T19:00:33.149Z"
-  },
-  "assets/html/home-slider-html.html": {
-    "size": 884,
-    "date": "2016-07-21T08:12:20.015Z"
-  },
-  "assets/html/slider-scripts.html": {
-    "size": 1001,
-    "date": "2016-07-21T08:12:20.412Z"
-  },
-  "assets/html/slider.html": {
-    "size": 2274,
-    "date": "2016-07-21T08:12:20.675Z"
   },
   "assets/images/header-logo.png": {
     "size": 5962,
@@ -1355,13 +1343,9 @@
     "size": 5633,
     "date": "2016-07-21T08:12:38.759Z"
   },
-  "index.html": {
-    "size": 5505,
-    "date": "2016-07-21T19:00:34.095Z"
-  },
   "style.css": {
     "size": 7831,
-    "date": "2016-07-21T19:00:34.523Z"
+    "date": "2016-07-21T19:08:39.238Z"
   },
   ".git/objects/2f/33d576661ce605b017a63670125b4c748f58ea": {
     "size": 1095,
@@ -1554,5 +1538,53 @@
   "assets/images/slder-right-arrow.png": {
     "size": 218,
     "date": "2016-07-21T19:00:29.583Z"
+  },
+  ".git/objects/08/4b3be29fecc1ca56c6077d0d1fb1c32401a2e6": {
+    "size": 276,
+    "date": "2016-07-21T19:05:04.345Z"
+  },
+  ".git/objects/0f/f2dd6b842b105e458ada2e031dc1909fba2c3c": {
+    "size": 99,
+    "date": "2016-07-21T19:05:04.696Z"
+  },
+  ".git/objects/56/ae7cf2068438da3f96e325e5980cf1de80fc15": {
+    "size": 188,
+    "date": "2016-07-21T19:05:05.025Z"
+  },
+  ".git/objects/5c/edfbc073f5c5bb00c84480b3e737bfcf30faa4": {
+    "size": 13952,
+    "date": "2016-07-21T19:05:05.366Z"
+  },
+  ".git/objects/68/a310a5c0ff86cede101db306180ec3dae783a9": {
+    "size": 252,
+    "date": "2016-07-21T19:05:05.686Z"
+  },
+  ".git/objects/a4/11bac823b1634ff63275db2896332365548a8a": {
+    "size": 197,
+    "date": "2016-07-21T19:05:06.010Z"
+  },
+  ".git/objects/be/6c4a415d7be0411853055d301861b11f64431c": {
+    "size": 236,
+    "date": "2016-07-21T19:05:06.308Z"
+  },
+  ".git/objects/cc/2f6a78e830950ed55aeddc4ff305ec61ccd3e0": {
+    "size": 1877,
+    "date": "2016-07-21T19:05:06.627Z"
+  },
+  ".git/objects/d9/72edf837cd88ebd31dfc270db15844b35150f3": {
+    "size": 148,
+    "date": "2016-07-21T19:05:06.949Z"
+  },
+  ".git/objects/dd/f41593c21faeb820c85e70502285e2be71f650": {
+    "size": 1902,
+    "date": "2016-07-21T19:05:07.254Z"
+  },
+  ".git/objects/ee/561906fc209a99b6a98c507ffdea250dafc587": {
+    "size": 366,
+    "date": "2016-07-21T19:05:07.534Z"
+  },
+  ".git/objects/f6/b8006b0026ae694dc56cb98555d136f3aac6de": {
+    "size": 1963,
+    "date": "2016-07-21T19:05:07.896Z"
   }
 }
