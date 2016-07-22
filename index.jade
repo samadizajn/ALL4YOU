@@ -105,26 +105,105 @@ html(lang="en")
           .box-button
             a.button.button-primary(href='#') Read more
 
-                                          
 
-    // Vendor: Javascripts
-    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
-    script(src='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js')
+    // Feature video block
+    .container-fluid.content_block.feature_video_block
+      .col-md-12
+        .feature_content
+          p.topheadline CNN TURK TV SHOW
+          a.ftvilink(href='#')
+            span.wcolor Watch out
+            span.wcolor
+              img(src="assets/images/icon4.png")
+            span.scolor Intro Video
 
-    // Include Home Slider Scripts
-    include assets/jade/home-slider-scripts.jade    
+    // Feature photo gallery block
+    .container-fluid.content_divider_horizontal
 
-    // Vendor: Angular, followed by our custom Javascripts
-    script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js')
-    script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js')
-    
-    script.
-      var app = angular.module('all4you', ['ngRoute']);    
+    // Feature photo gallery block
+    .container-fluid.content_block.feature_photogall_block
+      .col-md-12
+        .feature_content
+          p.topheadline FOTOS FROM EUROPEAN CITIES
+          a.ftvilink(href='#')
+            span.wcolor Feal The
+            span.wcolor
+              img(src='assets/images/icon5.png')
+            span.scolor Europe
 
-    // Website Javascripts
-    script(src='assets/js/main.min.js')
-    script(src='assets/angular/main.min.js')
+    // Content Wrapper
+    .container-fluid.content_block
+      .col-md-6.box
+        .row.LatestNews_block
+          .col-md-12.blockHead
+            span.blockUpHeadline NEWS FEED
+            h3.blockHeadline Latest News
+            span.blockHeadBottomline
+
+          .blockContent
+            ul
+              li
+                a.NewsLink(href='#')
+                  span.date 04.05.2016
+                  h4.title We are at education Fair in Azerbaijan...
+
+              li
+                a.NewsLink(href='#')
+                  span.date 12.07.2015
+                  h4.title Agreement with Goethe University in Slovakia...
+
+              li
+                a.NewsLink(href='#')
+                  span.date 04.05.2015
+                  h4.title ALL4YOU International Education Consultancy has signed a agreement with Riga Technical University.
+
+              li
+                a.NewsLink(href='#')
+                  span.date 04.5.2014
+                  h4.title Our Univesity Enrollments for 2013-2014 have started!!!
+
+          .box-button
+            a.button.button-primary(href='#') Check all
+
+
+      .col-md-6.box
+        .row.Faq_block
+          .col-md-12.blockHead
+            span.blockUpHeadline ALL ABOUT EUROPEAN EDUCATION
+            h3.blockHeadline Question and Answers
+            span.blockHeadBottomline
+
+          .blockContent
+            p Amazing benefits to study distinguished university in Europe...
+
+            ul
+              li Certificates of Entitlment
+              li Referenzes
+              li Application Documents
+              li Visa Application Documents
+              li Country guides
+
+
+          .box-button
+            a.button.button-primary(href='#') Check all            
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Footer scripts
+include assets/jade/footer-scripts-include.jade
 

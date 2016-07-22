@@ -1,11 +1,11 @@
 {
   ".git/COMMIT_EDITMSG": {
     "size": 5,
-    "date": "2016-07-22T10:02:52.699Z"
+    "date": "2016-07-22T10:13:32.096Z"
   },
   ".git/config": {
     "size": 331,
-    "date": "2016-07-22T10:02:52.982Z"
+    "date": "2016-07-22T10:13:32.368Z"
   },
   ".git/description": {
     "size": 73,
@@ -13,7 +13,7 @@
   },
   ".git/FETCH_HEAD": {
     "size": 99,
-    "date": "2016-07-22T10:09:56.121Z"
+    "date": "2016-07-22T11:23:36.477Z"
   },
   ".git/HEAD": {
     "size": 23,
@@ -57,23 +57,23 @@
   },
   ".git/index": {
     "size": 7188,
-    "date": "2016-07-22T10:02:53.609Z"
+    "date": "2016-07-22T11:08:16.008Z"
   },
   ".git/info/exclude": {
     "size": 240,
     "date": "2016-07-21T08:10:25.224Z"
   },
   ".git/logs/HEAD": {
-    "size": 7532,
-    "date": "2016-07-22T10:02:53.957Z"
+    "size": 7674,
+    "date": "2016-07-22T10:13:33.385Z"
   },
   ".git/logs/refs/heads/master": {
-    "size": 6028,
-    "date": "2016-07-22T10:02:54.307Z"
+    "size": 6170,
+    "date": "2016-07-22T10:13:33.797Z"
   },
   ".git/logs/refs/remotes/origin/master": {
-    "size": 4574,
-    "date": "2016-07-22T10:02:54.655Z"
+    "size": 4718,
+    "date": "2016-07-22T10:13:34.101Z"
   },
   ".git/objects/01/bdad407b87183aa6ede2ba9e9981e1664d8072": {
     "size": 430,
@@ -1189,11 +1189,11 @@
   },
   ".git/refs/heads/master": {
     "size": 41,
-    "date": "2016-07-22T10:02:55.349Z"
+    "date": "2016-07-22T10:13:34.386Z"
   },
   ".git/refs/remotes/origin/master": {
     "size": 41,
-    "date": "2016-07-22T10:02:55.662Z"
+    "date": "2016-07-22T10:13:34.687Z"
   },
   "assets/images/header-logo.png": {
     "size": 5962,
@@ -1344,8 +1344,8 @@
     "date": "2016-07-21T08:12:38.759Z"
   },
   "style.css": {
-    "size": 10150,
-    "date": "2016-07-22T10:02:56.322Z"
+    "size": 11587,
+    "date": "2016-07-22T11:23:37.161Z"
   },
   ".git/objects/2f/33d576661ce605b017a63670125b4c748f58ea": {
     "size": 1095,
@@ -1496,8 +1496,8 @@
     "date": "2016-07-21T19:00:33.467Z"
   },
   "assets/js/main.min.js": {
-    "size": 927,
-    "date": "2016-07-22T10:02:55.942Z"
+    "size": 1013,
+    "date": "2016-07-22T11:08:16.329Z"
   },
   ".git/objects/0c/fb1efccfd38938e2357cc8d5ce4537622bd64c": {
     "size": 78,
@@ -1698,5 +1698,81 @@
   "assets/images/services-block-bg.png": {
     "size": 497232,
     "date": "2016-07-22T10:02:52.390Z"
+  },
+  ".git/objects/07/dfbbad3315947c29714b2dba48f0cdde89e474": {
+    "size": 309,
+    "date": "2016-07-22T10:13:28.439Z"
+  },
+  ".git/objects/43/3040516613927c7fde77e27c77946b9339496a": {
+    "size": 15355,
+    "date": "2016-07-22T10:13:28.866Z"
+  },
+  ".git/objects/54/ca59bc6e866d84d78b7c29a146565a9a4361e6": {
+    "size": 391,
+    "date": "2016-07-22T10:13:29.171Z"
+  },
+  ".git/objects/6b/d16b3a423fbbdef67046fb3560e663bc712108": {
+    "size": 2347,
+    "date": "2016-07-22T10:13:29.554Z"
+  },
+  ".git/objects/92/015cee30b592c8f4acb63434f5fd09ccc2113a": {
+    "size": 1442,
+    "date": "2016-07-22T10:13:29.833Z"
+  },
+  ".git/objects/b5/88577f510e4efc7cee7b60c1a314832d6514b3": {
+    "size": 78,
+    "date": "2016-07-22T10:13:30.115Z"
+  },
+  ".git/objects/b7/1c0751b1137d8959388d48462eed9e689956bd": {
+    "size": 2453,
+    "date": "2016-07-22T10:13:30.460Z"
+  },
+  ".git/objects/bd/d24936c142067257660c734d74730c9674b3bc": {
+    "size": 196,
+    "date": "2016-07-22T10:13:30.776Z"
+  },
+  ".git/objects/ce/83abc9db731a6a1e711219ab92bad193f4efa7": {
+    "size": 148,
+    "date": "2016-07-22T10:13:31.100Z"
+  },
+  ".git/objects/e2/20f39744dcbac431a66ce2be2abf7f99bd4994": {
+    "size": 648,
+    "date": "2016-07-22T10:13:31.445Z"
+  },
+  ".git/objects/e4/14dc09cddf6f1139755b7af0975f4103dff8cd": {
+    "size": 2249,
+    "date": "2016-07-22T10:13:31.766Z"
+  },
+  "assets/html/home-slider-html.html": {
+    "size": 884,
+    "date": "2016-07-22T10:15:34.094Z"
+  },
+  "assets/html/slider-scripts.html": {
+    "size": 1001,
+    "date": "2016-07-22T10:15:34.371Z"
+  },
+  "assets/html/slider.html": {
+    "size": 2274,
+    "date": "2016-07-22T10:15:34.648Z"
+  },
+  "index.html": {
+    "size": 8392,
+    "date": "2016-07-22T11:23:36.800Z"
+  },
+  "assets/images/icon4.png": {
+    "size": 1279,
+    "date": "2016-07-22T11:08:13.811Z"
+  },
+  "assets/images/video-block-bg.png": {
+    "size": 377289,
+    "date": "2016-07-22T11:08:15.284Z"
+  },
+  "assets/images/icon5.png": {
+    "size": 1398,
+    "date": "2016-07-22T11:23:30.587Z"
+  },
+  "assets/images/photogall-block-bg.png": {
+    "size": 640808,
+    "date": "2016-07-22T11:23:36.164Z"
   }
 }

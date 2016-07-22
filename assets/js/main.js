@@ -7,6 +7,8 @@ jQuery( document ).ready(function( $ ) {
 	$(".header-navigation").addClass("tranzited-200");
 	$(".header-navigation ul li a").addClass("tranzited-200");
 	$(".button").addClass("tranzited-200");
+	$(".feature_video_block .feature_video_content a.ftvilink").addClass("tranzited-200");
+	$(".LatestNews_block .blockContent ul li a.NewsLink").addClass("tranzited-200");
 
 })(jQuery);
 
