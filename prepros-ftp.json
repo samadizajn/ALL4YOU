@@ -13,7 +13,7 @@
   },
   ".git/FETCH_HEAD": {
     "size": 99,
-    "date": "2016-07-23T10:06:17.941Z"
+    "date": "2016-07-25T11:11:36.476Z"
   },
   ".git/HEAD": {
     "size": 23,
@@ -1208,8 +1208,8 @@
     "date": "2016-07-21T08:12:23.128Z"
   },
   "style.css": {
-    "size": 14863,
-    "date": "2016-07-23T10:06:18.412Z"
+    "size": 17322,
+    "date": "2016-07-25T11:11:37.897Z"
   },
   ".git/objects/2f/33d576661ce605b017a63670125b4c748f58ea": {
     "size": 1095,
@@ -1360,8 +1360,8 @@
     "date": "2016-07-21T19:00:33.467Z"
   },
   "assets/js/main.min.js": {
-    "size": 1397,
-    "date": "2016-07-23T10:06:18.093Z"
+    "size": 1448,
+    "date": "2016-07-25T11:11:36.899Z"
   },
   ".git/objects/0c/fb1efccfd38938e2357cc8d5ce4537622bd64c": {
     "size": 78,
@@ -1620,8 +1620,8 @@
     "date": "2016-07-22T10:15:34.648Z"
   },
   "index.html": {
-    "size": 11143,
-    "date": "2016-07-23T09:38:29.659Z"
+    "size": 12537,
+    "date": "2016-07-25T11:11:37.400Z"
   },
   "assets/images/icon4.png": {
     "size": 1279,
@@ -1826,5 +1826,209 @@
   "assets/plugins/fancybox/lib/jquery-1.10.1.min.js": {
     "size": 93064,
     "date": "2016-07-25T11:11:16.745Z"
+  },
+  "assets/plugins/fancybox/lib/jquery-1.9.0.min.js": {
+    "size": 93068,
+    "date": "2016-07-25T11:11:17.407Z"
+  },
+  "assets/plugins/fancybox/lib/jquery.mousewheel-3.0.6.pack.js": {
+    "size": 1384,
+    "date": "2016-07-25T11:11:17.742Z"
+  },
+  "assets/plugins/fancybox/source/blank.gif": {
+    "size": 43,
+    "date": "2016-07-25T11:11:18.115Z"
+  },
+  "assets/plugins/fancybox/source/fancybox_loading.gif": {
+    "size": 6567,
+    "date": "2016-07-25T11:11:18.456Z"
+  },
+  "assets/plugins/fancybox/source/fancybox_loading@2x.gif": {
+    "size": 13984,
+    "date": "2016-07-25T11:11:18.788Z"
+  },
+  "assets/plugins/fancybox/source/fancybox_overlay.png": {
+    "size": 1003,
+    "date": "2016-07-25T11:11:19.095Z"
+  },
+  "assets/plugins/fancybox/source/fancybox_sprite.png": {
+    "size": 1362,
+    "date": "2016-07-25T11:11:19.420Z"
+  },
+  "assets/plugins/fancybox/source/fancybox_sprite@2x.png": {
+    "size": 6553,
+    "date": "2016-07-25T11:11:19.774Z"
+  },
+  "assets/plugins/fancybox/source/helpers/fancybox_buttons.png": {
+    "size": 1080,
+    "date": "2016-07-25T11:11:20.102Z"
+  },
+  "assets/plugins/fancybox/source/helpers/jquery.fancybox-buttons.css": {
+    "size": 2447,
+    "date": "2016-07-25T11:11:20.417Z"
+  },
+  "assets/plugins/fancybox/source/helpers/jquery.fancybox-buttons.js": {
+    "size": 3041,
+    "date": "2016-07-25T11:11:20.745Z"
+  },
+  "assets/plugins/fancybox/source/helpers/jquery.fancybox-media.js": {
+    "size": 5305,
+    "date": "2016-07-25T11:11:21.022Z"
+  },
+  "assets/plugins/fancybox/source/helpers/jquery.fancybox-thumbs.css": {
+    "size": 735,
+    "date": "2016-07-25T11:11:21.338Z"
+  },
+  "assets/plugins/fancybox/source/helpers/jquery.fancybox-thumbs.js": {
+    "size": 3836,
+    "date": "2016-07-25T11:11:21.658Z"
+  },
+  "assets/plugins/fancybox/source/jquery.fancybox.css": {
+    "size": 4895,
+    "date": "2016-07-25T11:11:21.905Z"
+  },
+  "assets/plugins/fancybox/source/jquery.fancybox.js": {
+    "size": 48706,
+    "date": "2016-07-25T11:11:22.369Z"
+  },
+  "assets/plugins/fancybox/source/jquery.fancybox.pack.js": {
+    "size": 23135,
+    "date": "2016-07-25T11:11:22.774Z"
+  },
+  "assets/plugins/royalslider/.DS_Store": {
+    "size": 10244,
+    "date": "2016-07-25T11:11:23.154Z"
+  },
+  "assets/plugins/royalslider/blank.gif": {
+    "size": 49,
+    "date": "2016-07-25T11:11:23.458Z"
+  },
+  "assets/plugins/royalslider/dev/.DS_Store": {
+    "size": 6148,
+    "date": "2016-07-25T11:11:23.790Z"
+  },
+  "assets/plugins/royalslider/dev/jquery.royalslider.js": {
+    "size": 60129,
+    "date": "2016-07-25T11:11:24.248Z"
+  },
+  "assets/plugins/royalslider/dev/modules/jquery.rs.active-class.js": {
+    "size": 746,
+    "date": "2016-07-25T11:11:24.581Z"
+  },
+  "assets/plugins/royalslider/dev/modules/jquery.rs.animated-blocks.js": {
+    "size": 8745,
+    "date": "2016-07-25T11:11:24.960Z"
+  },
+  "assets/plugins/royalslider/dev/modules/jquery.rs.auto-height.js": {
+    "size": 2300,
+    "date": "2016-07-25T11:11:25.275Z"
+  },
+  "assets/plugins/royalslider/dev/modules/jquery.rs.autoplay.js": {
+    "size": 4860,
+    "date": "2016-07-25T11:11:25.600Z"
+  },
+  "assets/plugins/royalslider/dev/modules/jquery.rs.bullets.js": {
+    "size": 1829,
+    "date": "2016-07-25T11:11:25.940Z"
+  },
+  "assets/plugins/royalslider/dev/modules/jquery.rs.deeplinking.js": {
+    "size": 10270,
+    "date": "2016-07-25T11:11:26.371Z"
+  },
+  "assets/plugins/royalslider/dev/modules/jquery.rs.fullscreen.js": {
+    "size": 7688,
+    "date": "2016-07-25T11:11:26.713Z"
+  },
+  "assets/plugins/royalslider/dev/modules/jquery.rs.global-caption.js": {
+    "size": 715,
+    "date": "2016-07-25T11:11:27.032Z"
+  },
+  "assets/plugins/royalslider/dev/modules/jquery.rs.nav-auto-hide.js": {
+    "size": 798,
+    "date": "2016-07-25T11:11:27.357Z"
+  },
+  "assets/plugins/royalslider/dev/modules/jquery.rs.tabs.js": {
+    "size": 2601,
+    "date": "2016-07-25T11:11:27.678Z"
+  },
+  "assets/plugins/royalslider/dev/modules/jquery.rs.thumbnails.js": {
+    "size": 15085,
+    "date": "2016-07-25T11:11:28.120Z"
+  },
+  "assets/plugins/royalslider/dev/modules/jquery.rs.video.js": {
+    "size": 6678,
+    "date": "2016-07-25T11:11:28.557Z"
+  },
+  "assets/plugins/royalslider/dev/modules/jquery.rs.visible-nearby.js": {
+    "size": 2393,
+    "date": "2016-07-25T11:11:28.891Z"
+  },
+  "assets/plugins/royalslider/grab.png": {
+    "size": 99,
+    "date": "2016-07-25T11:11:29.235Z"
+  },
+  "assets/plugins/royalslider/grabbing.png": {
+    "size": 2889,
+    "date": "2016-07-25T11:11:29.543Z"
+  },
+  "assets/plugins/royalslider/jquery-1.8.3.min.js": {
+    "size": 93636,
+    "date": "2016-07-25T11:11:30.196Z"
+  },
+  "assets/plugins/royalslider/jquery.easing-1.3.js": {
+    "size": 8101,
+    "date": "2016-07-25T11:11:30.573Z"
+  },
+  "assets/plugins/royalslider/jquery.royalslider.min.js": {
+    "size": 51742,
+    "date": "2016-07-25T11:11:31.102Z"
+  },
+  "assets/plugins/royalslider/royalslider.css": {
+    "size": 4090,
+    "date": "2016-07-25T11:11:31.428Z"
+  },
+  "assets/plugins/royalslider/skins/.DS_Store": {
+    "size": 6148,
+    "date": "2016-07-25T11:11:31.820Z"
+  },
+  "assets/plugins/royalslider/skins/default/rs-default.css": {
+    "size": 9102,
+    "date": "2016-07-25T11:11:32.216Z"
+  },
+  "assets/plugins/royalslider/skins/default/rs-default.png": {
+    "size": 3160,
+    "date": "2016-07-25T11:11:32.546Z"
+  },
+  "assets/plugins/royalslider/skins/default-inverted/rs-default-inverted.css": {
+    "size": 9332,
+    "date": "2016-07-25T11:11:33.011Z"
+  },
+  "assets/plugins/royalslider/skins/default-inverted/rs-default-inverted.png": {
+    "size": 2831,
+    "date": "2016-07-25T11:11:33.302Z"
+  },
+  "assets/plugins/royalslider/skins/minimal-white/rs-minimal-white.css": {
+    "size": 8339,
+    "date": "2016-07-25T11:11:33.713Z"
+  },
+  "assets/plugins/royalslider/skins/minimal-white/rs-minimal-white.png": {
+    "size": 5458,
+    "date": "2016-07-25T11:11:34.081Z"
+  },
+  "assets/plugins/royalslider/skins/preloaders/preloader-white.gif": {
+    "size": 869,
+    "date": "2016-07-25T11:11:34.512Z"
+  },
+  "assets/plugins/royalslider/skins/preloaders/preloader.gif": {
+    "size": 1986,
+    "date": "2016-07-25T11:11:35.150Z"
+  },
+  "assets/plugins/royalslider/skins/universal/rs-universal.css": {
+    "size": 7954,
+    "date": "2016-07-25T11:11:35.822Z"
+  },
+  "assets/plugins/royalslider/skins/universal/rs-universal.png": {
+    "size": 5633,
+    "date": "2016-07-25T11:11:36.140Z"
   }
 }

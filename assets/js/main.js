@@ -10,6 +10,7 @@ jQuery( document ).ready(function( $ ) {
 	$(".feature_video_block .feature_video_content a.ftvilink").addClass("tranzited-200");
 	$(".LatestNews_block .blockContent ul li a.NewsLink").addClass("tranzited-200");
 	$(".Footer_nav ul li a").addClass("tranzited-200");
+	$(".content_block .feature_content a.ftvilink").addClass("tranzited-200");
 
 })(jQuery);
 
