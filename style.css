@@ -694,13 +694,15 @@ body {
   margin-bottom: 50px;
 }
 
-.PostWrapper .PostContent p {
-  font-size: 16px;
+.PostWrapper .PostContent p,
+.PostWrapper .PostContent ul li {
+  font-size: 17px;
   font-weight: 400;
   line-height: 27px;
 }
 
-.PostWrapper .PostContent p a {
+.PostWrapper .PostContent p a,
+.PostWrapper .PostContent ul li a {
   color: #48e5e7;
 }
 
@@ -821,6 +823,30 @@ body {
   color: white;
   background-color: #48e5e7;
   border-color: #48e5e7;
+}
+
+ul.feature_list {
+  list-style-type: none;
+}
+
+ul.feature_list li::before {
+  content: "";
+  font-family: "FontAwesome";
+  float: left;
+  margin-left: -1.5em;
+  color: #2f3338;
+}
+
+ul.feature_list.stars li::before {
+  content: "\f005";
+}
+
+ul.feature_list.check li::before {
+  content: "\f00c";
+}
+
+ul.feature_list.check-circle-o li::before {
+  content: "\f05d";
 }
 
 .alignnone {

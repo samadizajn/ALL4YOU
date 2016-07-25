@@ -26,7 +26,7 @@ html(lang="en")
 
   body(ng-app='all4you')
      
-    nav.navbar.navbar-inverse.header-navigation.home
+    nav.navbar.navbar-inverse.header-navigation
       .container
         .navbar-header
 
@@ -49,61 +49,60 @@ html(lang="en")
               a(href='#') Tr
 
           ul.nav.navbar-nav.navbar-right.main-nav
-            li.active
+            li
               a(href='index.html') Home
             li
               a(href='aboutus.html') About us
             li
               a(href='#') News
-            li
+            li.active
               a(href='services.html') Services
             li
               a(href='#') Universities
             li
               a(href='#') Contact
 
+    .container.PostWrapper
 
-    // Homepage Slider
-    .container-fluid.slider
-      include assets/jade/home-slider-html.jade
+      .col-md-12.PostHeadline
+        h1 Services
 
-    // Services block
-    .container-fluid.content_block.services_block
-      .col-md-12.blockHead
-        span.blockUpHeadline SERVICES
-        h3.blockHeadline What We Offerr
-        span.blockHeadBottomline
+      .col-md-12.PostContent
+        h3 Free Consulting Services
+        p
+          strong Step 1
+        p 
+          | First of all interests, education and career plan, your budget and your requirements are identified. 
+          | In Europe, we give  detailed information about the life and contracted universities. 
+          | We offer  the European education system, programs, and prices of accommodation options. 
+          | We evaluate the options available to you. During the decision-making process you can apply us for any questions.
 
-      .container
-        .col-md-4.box
-          .box-image
-            img(src='assets/images/icon1.png')
-          .box-title
-            h3 Any branch you want at any university
-          .box-content
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          .box-button
-            a.button.button-primary(href='#') Read more
+        p 
+          strong Step 2
+        p 
+          | When you decide for the school, we have private interviews with school officials for you, 
+          | we take  your documents to prepare for the application, we make your  pre-registration application.       
 
-        .col-md-4.box
-          .box-image
-            img(src='assets/images/icon2.png')
-          .box-title
-            h3 Study in any university in any country
-          .box-content
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          .box-button
-            a.button.button-primary(href='#') Read more
+      .col-md-12.PostContent
+        h3 Comprehensive Services
+        p 
+          | We follow the next school track and accelerate your acceptance procedures
+          | We help you prepare visa documents, and forward the consulate.
+          | We can make your flight reservations when you are going to start school, we can offer you reasonable plane tickets. 
+          | And you are taken to your accommodation address.
 
-        .col-md-4.box
-          .box-image
-            img(src='assets/images/icon3.png')
-          .box-title
-            h3 Second language and international diploma
-          .box-content
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          .box-button
-            a.button.button-primary(href='#') Read more
+      .col-md-12.PostContent
+        h3 Also we provide
+        ul.feature_list.check-circle-o
+          li Your accommodation address, placement,
+          li School registration procedures,
+          li Preparation of Medicare checks,
+          li The preparation of an application for a residence permit,
+          li Helping the purchase of mobile phone line,
+          li Assistance in opening a bank account,
+          li Information about the daily life and health care needs,
+          li And many more services are offered.
+
 
 
     // Feature video block
@@ -130,63 +129,6 @@ html(lang="en")
             span.wcolor
               img(src='assets/images/icon5.png')
             span.scolor Europe
-
-    // Content Wrapper
-    .container-fluid.content_block
-      .col-md-6.box
-        .row.LatestNews_block
-          .col-md-12.blockHead
-            span.blockUpHeadline NEWS FEED
-            h3.blockHeadline Latest News
-            span.blockHeadBottomline
-
-          .blockContent
-            ul
-              li
-                a.NewsLink(href='#')
-                  span.date 04.05.2016
-                  h4.title We are at education Fair in Azerbaijan...
-
-              li
-                a.NewsLink(href='#')
-                  span.date 12.07.2015
-                  h4.title Agreement with Goethe University in Slovakia...
-
-              li
-                a.NewsLink(href='#')
-                  span.date 04.05.2015
-                  h4.title ALL4YOU International Education Consultancy has signed a agreement with Riga Technical University.
-
-              li
-                a.NewsLink(href='#')
-                  span.date 04.5.2014
-                  h4.title Our Univesity Enrollments for 2013-2014 have started!!!
-
-          .box-button
-            a.button.button-primary(href='#') Check all
-
-
-      .col-md-6.box
-        .row.Faq_block
-          .col-md-12.blockHead
-            span.blockUpHeadline ALL ABOUT EUROPEAN EDUCATION
-            h3.blockHeadline Question and Answers
-            span.blockHeadBottomline
-
-          .blockContent
-            p Amazing benefits to study distinguished university in Europe...
-
-            ul
-              li Certificates of Entitlment
-              li Referenzes
-              li Application Documents
-              li Visa Application Documents
-              li Country guides
-
-
-          .box-button
-            a.button.button-primary(href='#') Check all            
-
 
     // Content Wrapper
     .container-fluid.footer

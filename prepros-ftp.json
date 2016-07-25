@@ -1,7 +1,7 @@
 {
   ".git/COMMIT_EDITMSG": {
     "size": 5,
-    "date": "2016-07-25T11:14:48.565Z"
+    "date": "2016-07-25T12:39:38.093Z"
   },
   ".git/config": {
     "size": 331,
@@ -13,7 +13,7 @@
   },
   ".git/FETCH_HEAD": {
     "size": 0,
-    "date": "2016-07-25T11:22:33.421Z"
+    "date": "2016-07-25T12:39:38.426Z"
   },
   ".git/HEAD": {
     "size": 23,
@@ -57,19 +57,19 @@
   },
   ".git/index": {
     "size": 10648,
-    "date": "2016-07-25T11:14:49.398Z"
+    "date": "2016-07-25T12:39:38.814Z"
   },
   ".git/info/exclude": {
     "size": 240,
     "date": "2016-07-21T08:10:25.224Z"
   },
   ".git/logs/HEAD": {
-    "size": 8526,
-    "date": "2016-07-25T11:14:49.869Z"
+    "size": 8668,
+    "date": "2016-07-25T12:39:39.148Z"
   },
   ".git/logs/refs/heads/master": {
-    "size": 7022,
-    "date": "2016-07-25T11:14:50.293Z"
+    "size": 7164,
+    "date": "2016-07-25T12:39:39.476Z"
   },
   ".git/logs/refs/remotes/origin/master": {
     "size": 4862,
@@ -1189,7 +1189,7 @@
   },
   ".git/refs/heads/master": {
     "size": 41,
-    "date": "2016-07-25T11:15:03.818Z"
+    "date": "2016-07-25T12:39:39.817Z"
   },
   ".git/refs/remotes/origin/master": {
     "size": 41,
@@ -1208,8 +1208,8 @@
     "date": "2016-07-21T08:12:23.128Z"
   },
   "style.css": {
-    "size": 17358,
-    "date": "2016-07-25T11:22:34.455Z"
+    "size": 17814,
+    "date": "2016-07-25T12:39:40.953Z"
   },
   ".git/objects/2f/33d576661ce605b017a63670125b4c748f58ea": {
     "size": 1095,
@@ -1620,8 +1620,8 @@
     "date": "2016-07-22T10:15:34.648Z"
   },
   "index.html": {
-    "size": 12542,
-    "date": "2016-07-25T11:22:34.123Z"
+    "size": 12554,
+    "date": "2016-07-25T12:39:40.544Z"
   },
   "assets/images/icon4.png": {
     "size": 1279,
@@ -1816,8 +1816,8 @@
     "date": "2016-07-23T09:38:27.909Z"
   },
   "aboutus.html": {
-    "size": 8414,
-    "date": "2016-07-25T11:22:33.749Z"
+    "size": 8426,
+    "date": "2016-07-25T12:39:40.131Z"
   },
   "assets/images/demo/photo1.png": {
     "size": 489928,
@@ -2230,5 +2230,41 @@
   ".git/objects/fd/8d5ca566d47a77d9562168617bb2f6482bf9be": {
     "size": 1383,
     "date": "2016-07-25T11:14:48.223Z"
+  },
+  ".git/objects/1b/c3cc5b4eb40c40ae2c4b202a56baf0bfdc9cd1": {
+    "size": 1856,
+    "date": "2016-07-25T12:39:34.906Z"
+  },
+  ".git/objects/23/75835f2fcd5edb41488e7dc14503717af37c5a": {
+    "size": 20323,
+    "date": "2016-07-25T12:39:35.323Z"
+  },
+  ".git/objects/6a/a48b82132caa2f76f3daebe0e91b5618230043": {
+    "size": 3819,
+    "date": "2016-07-25T12:39:35.644Z"
+  },
+  ".git/objects/77/0bd3b08f15c073a04fe25032ac97ace52e769d": {
+    "size": 2139,
+    "date": "2016-07-25T12:39:36.035Z"
+  },
+  ".git/objects/bd/4053e60aa800ada1396d1dc8b28ed1bdfd2707": {
+    "size": 367,
+    "date": "2016-07-25T12:39:36.321Z"
+  },
+  ".git/objects/ca/0d2fc86e80c017401b9da4e0f28d8719b435de": {
+    "size": 4107,
+    "date": "2016-07-25T12:39:36.632Z"
+  },
+  ".git/objects/e2/f05e4089d393fe9248bbc0a172dd25bba40291": {
+    "size": 148,
+    "date": "2016-07-25T12:39:36.985Z"
+  },
+  ".git/objects/f1/3c6a7209ecb00d02e15d2138f0abe9ecba7a17": {
+    "size": 3525,
+    "date": "2016-07-25T12:39:37.354Z"
+  },
+  "services.html": {
+    "size": 9226,
+    "date": "2016-07-25T12:39:37.759Z"
   }
 }

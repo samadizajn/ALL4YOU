@@ -617,14 +617,15 @@ body
   position: relative
   margin-bottom: 50px
 
-.PostWrapper .PostContent p
-  font-size: 16px
+.PostWrapper .PostContent p,
+.PostWrapper .PostContent ul li
+  font-size: 17px
   font-weight: 400
   line-height: 27px
 
-.PostWrapper .PostContent p a 
+.PostWrapper .PostContent p a,
+.PostWrapper .PostContent ul li a
   color: $secondary_color
-
 
 
 
@@ -751,6 +752,30 @@ body
   color: #fff
   background-color: $secondary_color
   border-color: $secondary_color
+
+// Featured list
+
+ul.feature_list
+  list-style-type: none
+
+ul.feature_list li::before
+  content: ""
+  font-family: 'FontAwesome'
+  float: left
+  margin-left: -1.5em
+  color: $primary_color
+
+ul.feature_list.stars li::before  
+  content: "\f005"
+
+ul.feature_list.check li::before  
+  content: "\f00c"
+
+ul.feature_list.check-circle-o li::before  
+  content: "\f05d"    
+
+
+
 
 // = WordPress Core
 // --------------------------------------------------------------
