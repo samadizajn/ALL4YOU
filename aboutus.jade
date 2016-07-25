@@ -49,9 +49,9 @@ html(lang="en")
               a(href='#') Tr
 
           ul.nav.navbar-nav.navbar-right.main-nav
-            li.active
-              a(href='index.html') Home
             li
+              a(href='index.html') Home
+            li.active
               a(href='aboutus.html') About us
             li
               a(href='#') News
@@ -62,48 +62,23 @@ html(lang="en")
             li
               a(href='#') Contact
 
+    .container.PostWrapper
 
-    // Homepage Slider
-    .container-fluid.slider
-      include assets/jade/home-slider-html.jade
+      .col-md-12.PostHeadline
+        h1 About us
 
-    // Services block
-    .container-fluid.content_block.services_block
-      .col-md-12.blockHead
-        span.blockUpHeadline SERVICES
-        h3.blockHeadline What We Offerr
-        span.blockHeadBottomline
+      .col-md-6.PostContent
+        p ALL4YOU Overseas Education Consulting, providing consulting services related to training opportunities abroad, is a well-established organization. Our organization is the official representative  of  higher education  institutions providing education in English in Hungary, the Czech Republic, Slovakia, Bulgaria, Croatia, Romania and Serbia, as well as Austrian and German universities.
 
-      .container
-        .col-md-4.box
-          .box-image
-            img(src='assets/images/icon1.png')
-          .box-title
-            h3 Any branch you want at any university
-          .box-content
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          .box-button
-            a.button.button-primary(href='#') Read more
+      .col-md-6.PostContent
+        p ALL4YOU Overseas Education Consultancy is a dynamic family institution  with   its  long standing experience in  Hungary, Slovakia, the Czech Republic, Bulgaria, Latvia, Lithuania, Estonia, Austria, Germany, Croatia, Romania and Serbia and its aim is to provide you reliable support. It is our priority to please the students who will be trained in the countries in Europe that we have close heart and blood ties.
 
-        .col-md-4.box
-          .box-image
-            img(src='assets/images/icon2.png')
-          .box-title
-            h3 Study in any university in any country
-          .box-content
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          .box-button
-            a.button.button-primary(href='#') Read more
+      .col-md-12.PostContent
+        p
+          a.fancybox(href='assets/images/demo/photo1.png')
+            img.aligncenter.img-responsive(src='assets/images/demo/photo1.png', width="375", height="266")
 
-        .col-md-4.box
-          .box-image
-            img(src='assets/images/icon3.png')
-          .box-title
-            h3 Second language and international diploma
-          .box-content
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          .box-button
-            a.button.button-primary(href='#') Read more
+
 
 
     // Feature video block
@@ -130,63 +105,6 @@ html(lang="en")
             span.wcolor
               img(src='assets/images/icon5.png')
             span.scolor Europe
-
-    // Content Wrapper
-    .container-fluid.content_block
-      .col-md-6.box
-        .row.LatestNews_block
-          .col-md-12.blockHead
-            span.blockUpHeadline NEWS FEED
-            h3.blockHeadline Latest News
-            span.blockHeadBottomline
-
-          .blockContent
-            ul
-              li
-                a.NewsLink(href='#')
-                  span.date 04.05.2016
-                  h4.title We are at education Fair in Azerbaijan...
-
-              li
-                a.NewsLink(href='#')
-                  span.date 12.07.2015
-                  h4.title Agreement with Goethe University in Slovakia...
-
-              li
-                a.NewsLink(href='#')
-                  span.date 04.05.2015
-                  h4.title ALL4YOU International Education Consultancy has signed a agreement with Riga Technical University.
-
-              li
-                a.NewsLink(href='#')
-                  span.date 04.5.2014
-                  h4.title Our Univesity Enrollments for 2013-2014 have started!!!
-
-          .box-button
-            a.button.button-primary(href='#') Check all
-
-
-      .col-md-6.box
-        .row.Faq_block
-          .col-md-12.blockHead
-            span.blockUpHeadline ALL ABOUT EUROPEAN EDUCATION
-            h3.blockHeadline Question and Answers
-            span.blockHeadBottomline
-
-          .blockContent
-            p Amazing benefits to study distinguished university in Europe...
-
-            ul
-              li Certificates of Entitlment
-              li Referenzes
-              li Application Documents
-              li Visa Application Documents
-              li Country guides
-
-
-          .box-button
-            a.button.button-primary(href='#') Check all            
-
 
     // Content Wrapper
     .container-fluid.footer

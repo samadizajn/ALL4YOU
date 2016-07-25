@@ -1,7 +1,7 @@
 {
   ".git/COMMIT_EDITMSG": {
     "size": 5,
-    "date": "2016-07-22T14:34:06.317Z"
+    "date": "2016-07-23T09:38:28.078Z"
   },
   ".git/config": {
     "size": 331,
@@ -13,7 +13,7 @@
   },
   ".git/FETCH_HEAD": {
     "size": 99,
-    "date": "2016-07-22T14:49:36.237Z"
+    "date": "2016-07-23T10:06:17.941Z"
   },
   ".git/HEAD": {
     "size": 23,
@@ -56,20 +56,20 @@
     "date": "2016-07-21T08:10:24.600Z"
   },
   ".git/index": {
-    "size": 7564,
-    "date": "2016-07-22T14:34:07.649Z"
+    "size": 7748,
+    "date": "2016-07-23T09:38:28.542Z"
   },
   ".git/info/exclude": {
     "size": 240,
     "date": "2016-07-21T08:10:25.224Z"
   },
   ".git/logs/HEAD": {
-    "size": 7958,
-    "date": "2016-07-22T14:34:08.286Z"
+    "size": 8242,
+    "date": "2016-07-23T09:38:28.878Z"
   },
   ".git/logs/refs/heads/master": {
-    "size": 6454,
-    "date": "2016-07-22T14:34:09.109Z"
+    "size": 6738,
+    "date": "2016-07-23T09:38:29.127Z"
   },
   ".git/logs/refs/remotes/origin/master": {
     "size": 4862,
@@ -1189,7 +1189,7 @@
   },
   ".git/refs/heads/master": {
     "size": 41,
-    "date": "2016-07-22T14:34:09.936Z"
+    "date": "2016-07-23T09:38:29.328Z"
   },
   ".git/refs/remotes/origin/master": {
     "size": 41,
@@ -1207,145 +1207,9 @@
     "size": 439461,
     "date": "2016-07-21T08:12:23.128Z"
   },
-  "assets/royalslider/.DS_Store": {
-    "size": 10244,
-    "date": "2016-07-21T08:12:24.942Z"
-  },
-  "assets/royalslider/blank.gif": {
-    "size": 49,
-    "date": "2016-07-21T08:12:25.253Z"
-  },
-  "assets/royalslider/dev/.DS_Store": {
-    "size": 6148,
-    "date": "2016-07-21T08:12:25.593Z"
-  },
-  "assets/royalslider/dev/jquery.royalslider.js": {
-    "size": 60129,
-    "date": "2016-07-21T08:12:26.053Z"
-  },
-  "assets/royalslider/dev/modules/jquery.rs.active-class.js": {
-    "size": 746,
-    "date": "2016-07-21T08:12:26.397Z"
-  },
-  "assets/royalslider/dev/modules/jquery.rs.animated-blocks.js": {
-    "size": 8745,
-    "date": "2016-07-21T08:12:27.094Z"
-  },
-  "assets/royalslider/dev/modules/jquery.rs.auto-height.js": {
-    "size": 2300,
-    "date": "2016-07-21T08:12:27.500Z"
-  },
-  "assets/royalslider/dev/modules/jquery.rs.autoplay.js": {
-    "size": 4860,
-    "date": "2016-07-21T08:12:27.829Z"
-  },
-  "assets/royalslider/dev/modules/jquery.rs.bullets.js": {
-    "size": 1829,
-    "date": "2016-07-21T08:12:28.151Z"
-  },
-  "assets/royalslider/dev/modules/jquery.rs.deeplinking.js": {
-    "size": 10270,
-    "date": "2016-07-21T08:12:28.536Z"
-  },
-  "assets/royalslider/dev/modules/jquery.rs.fullscreen.js": {
-    "size": 7688,
-    "date": "2016-07-21T08:12:28.908Z"
-  },
-  "assets/royalslider/dev/modules/jquery.rs.global-caption.js": {
-    "size": 715,
-    "date": "2016-07-21T08:12:29.249Z"
-  },
-  "assets/royalslider/dev/modules/jquery.rs.nav-auto-hide.js": {
-    "size": 798,
-    "date": "2016-07-21T08:12:29.581Z"
-  },
-  "assets/royalslider/dev/modules/jquery.rs.tabs.js": {
-    "size": 2601,
-    "date": "2016-07-21T08:12:29.904Z"
-  },
-  "assets/royalslider/dev/modules/jquery.rs.thumbnails.js": {
-    "size": 15085,
-    "date": "2016-07-21T08:12:30.399Z"
-  },
-  "assets/royalslider/dev/modules/jquery.rs.video.js": {
-    "size": 6678,
-    "date": "2016-07-21T08:12:30.883Z"
-  },
-  "assets/royalslider/dev/modules/jquery.rs.visible-nearby.js": {
-    "size": 2393,
-    "date": "2016-07-21T08:12:31.275Z"
-  },
-  "assets/royalslider/grab.png": {
-    "size": 99,
-    "date": "2016-07-21T08:12:31.585Z"
-  },
-  "assets/royalslider/grabbing.png": {
-    "size": 2889,
-    "date": "2016-07-21T08:12:31.893Z"
-  },
-  "assets/royalslider/jquery-1.8.3.min.js": {
-    "size": 93636,
-    "date": "2016-07-21T08:12:32.513Z"
-  },
-  "assets/royalslider/jquery.easing-1.3.js": {
-    "size": 8101,
-    "date": "2016-07-21T08:12:32.837Z"
-  },
-  "assets/royalslider/jquery.royalslider.min.js": {
-    "size": 51742,
-    "date": "2016-07-21T08:12:33.343Z"
-  },
-  "assets/royalslider/royalslider.css": {
-    "size": 4090,
-    "date": "2016-07-21T08:12:33.660Z"
-  },
-  "assets/royalslider/skins/.DS_Store": {
-    "size": 6148,
-    "date": "2016-07-21T08:12:33.991Z"
-  },
-  "assets/royalslider/skins/default/rs-default.css": {
-    "size": 9102,
-    "date": "2016-07-21T08:12:34.348Z"
-  },
-  "assets/royalslider/skins/default/rs-default.png": {
-    "size": 3160,
-    "date": "2016-07-21T08:12:34.678Z"
-  },
-  "assets/royalslider/skins/default-inverted/rs-default-inverted.css": {
-    "size": 9332,
-    "date": "2016-07-21T08:12:35.011Z"
-  },
-  "assets/royalslider/skins/default-inverted/rs-default-inverted.png": {
-    "size": 2831,
-    "date": "2016-07-21T08:12:35.387Z"
-  },
-  "assets/royalslider/skins/minimal-white/rs-minimal-white.css": {
-    "size": 8339,
-    "date": "2016-07-21T08:12:37.054Z"
-  },
-  "assets/royalslider/skins/minimal-white/rs-minimal-white.png": {
-    "size": 5458,
-    "date": "2016-07-21T08:12:37.359Z"
-  },
-  "assets/royalslider/skins/preloaders/preloader-white.gif": {
-    "size": 869,
-    "date": "2016-07-21T08:12:37.705Z"
-  },
-  "assets/royalslider/skins/preloaders/preloader.gif": {
-    "size": 1986,
-    "date": "2016-07-21T08:12:38.032Z"
-  },
-  "assets/royalslider/skins/universal/rs-universal.css": {
-    "size": 7954,
-    "date": "2016-07-21T08:12:38.433Z"
-  },
-  "assets/royalslider/skins/universal/rs-universal.png": {
-    "size": 5633,
-    "date": "2016-07-21T08:12:38.759Z"
-  },
   "style.css": {
-    "size": 13472,
-    "date": "2016-07-22T14:47:17.843Z"
+    "size": 14863,
+    "date": "2016-07-23T10:06:18.412Z"
   },
   ".git/objects/2f/33d576661ce605b017a63670125b4c748f58ea": {
     "size": 1095,
@@ -1496,8 +1360,8 @@
     "date": "2016-07-21T19:00:33.467Z"
   },
   "assets/js/main.min.js": {
-    "size": 1319,
-    "date": "2016-07-22T14:52:03.399Z"
+    "size": 1397,
+    "date": "2016-07-23T10:06:18.093Z"
   },
   ".git/objects/0c/fb1efccfd38938e2357cc8d5ce4537622bd64c": {
     "size": 78,
@@ -1756,8 +1620,8 @@
     "date": "2016-07-22T10:15:34.648Z"
   },
   "index.html": {
-    "size": 10318,
-    "date": "2016-07-22T14:13:09.653Z"
+    "size": 11143,
+    "date": "2016-07-23T09:38:29.659Z"
   },
   "assets/images/icon4.png": {
     "size": 1279,
@@ -1866,5 +1730,101 @@
   ".git/objects/fa/bb82371ef5b598251809820ef25dcbe60751c0": {
     "size": 149,
     "date": "2016-07-22T14:34:05.966Z"
+  },
+  ".git/objects/04/3a7989fd2d963f1d347268ad59fc761f496b4d": {
+    "size": 804,
+    "date": "2016-07-23T09:38:23.585Z"
+  },
+  ".git/objects/18/f858e01093117811fa7b9a11f5afd4dc35752c": {
+    "size": 515,
+    "date": "2016-07-23T09:38:23.786Z"
+  },
+  ".git/objects/32/7184ad03718d135ef0937aff8f064822fc1931": {
+    "size": 3415,
+    "date": "2016-07-23T09:38:24.002Z"
+  },
+  ".git/objects/52/bad43cb510b86176574a7f5f3babec78fe93a7": {
+    "size": 2946,
+    "date": "2016-07-23T09:38:24.202Z"
+  },
+  ".git/objects/53/a38ccd51e2eab332d619483601e98d47036a6e": {
+    "size": 16922,
+    "date": "2016-07-23T09:38:24.719Z"
+  },
+  ".git/objects/56/cda061690c5167b031489cf428c02e3aa36491": {
+    "size": 5882,
+    "date": "2016-07-23T09:38:24.919Z"
+  },
+  ".git/objects/60/1fd8b7d28fd8bf745b8de558f28fb2a4ee63ae": {
+    "size": 148,
+    "date": "2016-07-23T09:38:25.088Z"
+  },
+  ".git/objects/61/3ecb139fbf6e79ebc0fecb03df0b72eab59e4f": {
+    "size": 3206,
+    "date": "2016-07-23T09:38:25.251Z"
+  },
+  ".git/objects/63/cabc2ffc67b3888e1187220df4961e46edd3be": {
+    "size": 310,
+    "date": "2016-07-23T09:38:25.451Z"
+  },
+  ".git/objects/73/3e8974bf63d1a855650b15592d2714cb4fef5b": {
+    "size": 310,
+    "date": "2016-07-23T09:38:25.689Z"
+  },
+  ".git/objects/75/86a1aa9ca845af8d9327c83d6656627abcc2c8": {
+    "size": 1082,
+    "date": "2016-07-23T09:38:25.872Z"
+  },
+  ".git/objects/78/513d36254de91e2cd14ac995b29ab96cd32bd2": {
+    "size": 197,
+    "date": "2016-07-23T09:38:26.021Z"
+  },
+  ".git/objects/9b/d0548bc2bf36f3922d6c0af6a954762558e709": {
+    "size": 77,
+    "date": "2016-07-23T09:38:26.237Z"
+  },
+  ".git/objects/9f/838eb3f2e10e463ebf465657fde468384a73f5": {
+    "size": 484,
+    "date": "2016-07-23T09:38:26.453Z"
+  },
+  ".git/objects/a2/dcf3b9c5a50b9223f9559d44b087af6a4d3f1e": {
+    "size": 3233,
+    "date": "2016-07-23T09:38:26.654Z"
+  },
+  ".git/objects/ca/ff1a2ed3e055a430313b9b708b8f7630f2dfc2": {
+    "size": 2138,
+    "date": "2016-07-23T09:38:26.838Z"
+  },
+  ".git/objects/cf/9fddc9451fccafd398d92667172d001fccd96a": {
+    "size": 147,
+    "date": "2016-07-23T09:38:27.023Z"
+  },
+  ".git/objects/f0/362ff7f4a5dd7713fefcb474555c27d8b2afc1": {
+    "size": 197,
+    "date": "2016-07-23T09:38:27.240Z"
+  },
+  ".git/objects/f1/75a81d98e4f57e46da13ac18fadf789ec3c0f8": {
+    "size": 3122,
+    "date": "2016-07-23T09:38:27.440Z"
+  },
+  "assets/images/footer-logo.png": {
+    "size": 5861,
+    "date": "2016-07-23T09:38:27.725Z"
+  },
+  "assets/images/icon6.png": {
+    "size": 1061,
+    "date": "2016-07-23T09:38:27.909Z"
+  },
+  "aboutus.html": {
+    "size": 8414,
+    "date": "2016-07-25T11:11:14.896Z"
+  },
+  "assets/images/demo/photo1.png": {
+    "size": 489928,
+    "date": "2016-07-25T11:11:16.047Z"
+  },
+  "assets/plugins/fancybox/lib/jquery-1.10.1.min.js": {
+    "size": 93064,
+    "date": "2016-07-25T11:11:16.745Z"
   }
 }

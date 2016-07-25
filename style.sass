@@ -186,8 +186,10 @@ body
   .header-navigation .navbar-nav>.active>a:hover, 
   .header-navigation .navbar-nav>.active>a:focus,
   .header-navigation .navbar-nav>li>a:hover
-    border-bottom: transparent
+    border-bottom-color: transparent
     font-weight: bold
+
+
 
 @media screen and (max-width: 460px)
   .header-navigation .navbar-brand
@@ -576,6 +578,69 @@ body
 
 
 
+
+// Page or Post style
+.PostWrapper
+  margin: 0 auto
+  position: relative
+  margin-bottom: 50px
+
+@media screen and (min-width: 1200px)
+  .PostWrapper
+    width: 800px
+
+.PostWrapper .PostHeadline
+  text-align: center
+
+.PostWrapper .PostHeadline h1
+  font-size: 44px
+  font-weight: 500
+  line-height: 54px
+  text-align: center
+  position: relative
+  padding: 0 0 20px 0
+  margin: 84px 0 64px 0
+
+.PostWrapper .PostHeadline h1::after
+  content: ""
+  width: 47px
+  height: 6px
+  background-color: $secondary_color
+  position: absolute
+  bottom: 0
+  left: 47%
+
+.PostWrapper .PostContent
+  position: relative
+  margin-bottom: 50px
+
+.PostWrapper .PostContent p
+  font-size: 16px
+  font-weight: 400
+  line-height: 27px
+
+.PostWrapper .PostContent p a 
+  color: $secondary_color
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Footer
 .footer
   padding: 40px 0
@@ -695,3 +760,86 @@ body
   background-color: $secondary_color
   border-color: $secondary_color
 
+// = WordPress Core
+// --------------------------------------------------------------
+
+.alignnone
+  margin: 5px 20px 20px 0
+
+.aligncenter, div.aligncenter
+  display: block
+  margin: 5px auto 5px auto
+
+.alignright
+  float: right
+  margin: 5px 0 20px 20px
+
+.alignleft
+  float: left
+  margin: 5px 20px 20px 0
+
+a img
+  &.alignright
+    float: right
+    margin: 5px 0 20px 20px
+  &.alignnone
+    margin: 5px 20px 20px 0
+  &.alignleft
+    float: left
+    margin: 5px 20px 20px 0
+  &.aligncenter
+    display: block
+    margin-left: auto
+    margin-right: auto
+
+.wp-caption
+  background: #fff
+  border: 1px solid #f0f0f0
+  max-width: 96%
+  // Image does not overflow the content area
+  padding: 5px 3px 10px
+  text-align: center
+  &.alignnone, &.alignleft
+    margin: 5px 20px 20px 0
+  &.alignright
+    margin: 5px 0 20px 20px
+  img
+    border: 0 none
+    height: auto
+    margin: 0
+    max-width: 98.5%
+    padding: 0
+    width: auto
+  p.wp-caption-text
+    font-size: 11px
+    line-height: 17px
+    margin: 0
+    padding: 0 4px 5px
+
+// Text meant only for screen readers.
+
+.screen-reader-text
+  clip: rect(1px, 1px, 1px, 1px)
+  position: absolute !important
+  height: 1px
+  width: 1px
+  overflow: hidden
+  &:focus
+    background-color: #f1f1f1
+    border-radius: 3px
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6)
+    clip: auto !important
+    color: #21759b
+    display: block
+    font-size: 14px
+    font-size: 0.875rem
+    font-weight: bold
+    height: auto
+    left: 5px
+    line-height: normal
+    padding: 15px 23px 14px
+    text-decoration: none
+    top: 5px
+    width: auto
+    z-index: 100000
+    // Above WP toolbar.

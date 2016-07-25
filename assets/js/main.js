@@ -9,6 +9,7 @@ jQuery( document ).ready(function( $ ) {
 	$(".button").addClass("tranzited-200");
 	$(".feature_video_block .feature_video_content a.ftvilink").addClass("tranzited-200");
 	$(".LatestNews_block .blockContent ul li a.NewsLink").addClass("tranzited-200");
+	$(".Footer_nav ul li a").addClass("tranzited-200");
 
 })(jQuery);
 
@@ -30,13 +31,13 @@ $trigger.click(function () {
 (function($) {
 
 $( window ).on("load", function() {
-	var winHeight = $(window).height();
-	var winWidth = $(window).width();
+	var $winHeight = $(window).height();
+	var $winWidth = $(window).width();
 
 	// Give slider height based on window height
-	if ( winWidth < 769 ) {
-		$('.slider #slider-with-blocks-1').css('height', winHeight);
-		$('.slider.portrait .rsContent .rsMainSlideImage').css('height', winHeight);
+	if ( $winWidth < 769 ) {
+		$('.slider #slider-with-blocks-1').css('height', $winHeight);
+		$('.slider .rsImg').css('height', $winHeight);
 		 
 	}	
 });
@@ -90,8 +91,15 @@ $( window ).on("load resize", function() {
 
 })(jQuery);
 
+// Scroll to top, footer link 
+(function($) {
 
+$('.totoplink').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+ });
 
+})(jQuery);
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
