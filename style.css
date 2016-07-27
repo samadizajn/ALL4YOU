@@ -8,6 +8,11 @@
   border-bottom: 6px solid #48e5e7;
 }
 
+.cleaner {
+  clear: both;
+  font-size: 1px;
+}
+
 body {
   font-family: Roboto, sans-serif;
   color: #2f3338;
