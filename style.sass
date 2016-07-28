@@ -631,16 +631,70 @@ body
   color: $secondary_color
 
 
+// Universities page
+.universities
+  height: auto
+
+.universities .sidebar
+  height: 100vh
+  background-color: #eee
+  padding: 50px 0 0 50px
+
+.universities .sidebar #accordion
+  margin: 0
 
 
+.universities .content
+  height: 100vh
+  overflow: auto
 
+.universities .content.land
+  background-image: url("assets/images/univ-land-bg.png")
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
 
+.universities .content .PostHeadline
+  position: relative
+  margin: 0 auto
+  float: none
+  text-align: center
+  max-width: 500px
 
+.universities .content .PostHeadline .upHeadline 
+  font-size: 14px
+  font-weight: 300
+  margin-top: 136px  
 
+.universities .content .PostHeadline .Headline
+  font-size: 44px
+  font-weight: 500
+  line-height: 54px
+  text-align: center
+  position: relative
+  padding: 0 0 20px 0
+  margin: 0 0 64px 0
 
+.universities .content .PostHeadline .Headline::after
+  content: ""
+  width: 47px
+  height: 6px
+  background-color: $secondary_color
+  position: absolute
+  bottom: 0
+  left: 45%
 
-
-
+.universities .content.land .PostHeadline::after
+  content: ""
+  width: 60px
+  height: 60px
+  position: absolute
+  bottom: -130px
+  left: 45%
+  background-image: url("assets/images/icon7.png")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
 
 
 

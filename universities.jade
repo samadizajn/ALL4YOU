@@ -1,0 +1,244 @@
+doctype html
+html(lang="en")
+
+  head
+
+    // Meta-Information
+    title ALL4YOU International Education and Counselling
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    meta(name='description', content='ALL4YOU International Education and Counselling')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    // Vendor: Bootstrap Stylesheets http://getbootstrap.com
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css')
+    link(href='http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css', rel='stylesheet')
+
+    // Roboto Google font
+    link(href='https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,latin-ext', rel='stylesheet')
+
+    // Website CSS Styles
+    link(rel='stylesheet', href='style.css')
+
+    meta(name='robots', content='noindex, nofollow') 
+
+
+  body(ng-app='all4you')
+     
+    nav.navbar.navbar-inverse.header-navigation
+      .container
+        .navbar-header
+
+          .langswithermob
+
+          a.navbar-brand(href='index.html')
+            img(src='assets/images/header-logo.png')
+
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='#myNavbar')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar              
+
+        #myNavbar.collapse.navbar-collapse
+
+          ul.nav.navbar-nav.navbar-right.language_switcher
+            li.active
+              a(href='#') En
+            li
+              a(href='#') Tr
+
+          ul.nav.navbar-nav.navbar-right.main-nav
+            li
+              a(href='index.html') Home
+            li
+              a(href='aboutus.html') About us
+            li
+              a(href='#') News
+            li
+              a(href='services.html') Services
+            li.active
+              a(href='universities.html') Universities
+            li
+              a(href='#') Contact
+
+    .container-fluid.universities
+      .row
+        .col-md-3.sidebar
+          #accordion.panel-group
+            .panel.panel-default
+              .panel-heading
+                h4.panel-title
+                  a(data-toggle='collapse', data-parent='#accordion', href='#collapse1') HUNGARY
+              #collapse1.panel-collapse.collapse.in
+                .panel-body
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  | sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  | quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            .panel.panel-default
+              .panel-heading
+                h4.panel-title
+                  a(data-toggle='collapse', data-parent='#accordion', href='#collapse2') SLOVAKIA
+              #collapse2.panel-collapse.collapse
+                .panel-body
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  | sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  | quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            .panel.panel-default
+              .panel-heading
+                h4.panel-title
+                  a(data-toggle='collapse', data-parent='#accordion', href='#collapse3') CHECH REPUBLIC
+              #collapse3.panel-collapse.collapse
+                .panel-body
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  | sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  | quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+            .panel.panel-default
+              .panel-heading
+                h4.panel-title
+                  a(data-toggle='collapse', data-parent='#accordion', href='#collapse3') CHECH REPUBLIC
+              #collapse3.panel-collapse.collapse
+                .panel-body
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  | sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  | quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+            .panel.panel-default
+              .panel-heading
+                h4.panel-title
+                  a(data-toggle='collapse', data-parent='#accordion', href='#collapse3') BULGARIA
+              #collapse3.panel-collapse.collapse
+                .panel-body
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  | sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  | quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+            .panel.panel-default
+              .panel-heading
+                h4.panel-title
+                  a(data-toggle='collapse', data-parent='#accordion', href='#collapse3') AUSTRIA
+              #collapse3.panel-collapse.collapse
+                .panel-body
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  | sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  | quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+            .panel.panel-default
+              .panel-heading
+                h4.panel-title
+                  a(data-toggle='collapse', data-parent='#accordion', href='#collapse3') GERMANY
+              #collapse3.panel-collapse.collapse
+                .panel-body
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  | sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  | quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+            .panel.panel-default
+              .panel-heading
+                h4.panel-title
+                  a(data-toggle='collapse', data-parent='#accordion', href='#collapse3') POLAND
+              #collapse3.panel-collapse.collapse
+                .panel-body
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  | sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  | quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+            .panel.panel-default
+              .panel-heading
+                h4.panel-title
+                  a(data-toggle='collapse', data-parent='#accordion', href='#collapse3') CROATIA
+              #collapse3.panel-collapse.collapse
+                .panel-body
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  | sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  | quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+            .panel.panel-default
+              .panel-heading
+                h4.panel-title
+                  a(data-toggle='collapse', data-parent='#accordion', href='#collapse3') CROATIA
+              #collapse3.panel-collapse.collapse
+                .panel-body
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  | sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  | quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+
+            .panel.panel-default
+              .panel-heading
+                h4.panel-title
+                  a(data-toggle='collapse', data-parent='#accordion', href='#collapse3') LANGUAGE SCHOOLS
+              #collapse3.panel-collapse.collapse
+                .panel-body
+                  | Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  | sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  | quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+
+
+
+        .col-md-9.content.land
+          .col-md-6.PostHeadline
+            p.upHeadline UNIVERSITIES
+            p.Headline Choose Country from menu on the left
+
+
+
+
+    // Content Wrapper
+    .container-fluid.footer
+      .col-md-12.Footer_hedline
+        img(src='assets/images/footer-logo.png')
+
+      .col-md-12.Footer_nav
+        ul
+          li
+            a(href='#') HOME
+
+          li
+            a(href='#') ABOUT US
+
+          li
+            a(href='#') NEWS
+
+          li
+            a(href='#') SERVICES
+
+          li
+            a(href='#') UNIVERSITIES
+
+          li
+            a(href='#') CONTACT
+
+        a.totoplink(href='#')
+          img(src='assets/images/icon6.png')
+
+      .col-md-12.Footer_bottomline
+        p.copyright
+          | ALL4YOU © 2016. 
+          | All rights reserved.
+
+        p.production
+          | Design & Production:
+          a(href='#') SamaDesign
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Footer scripts
+include assets/jade/footer-scripts-include.jade
