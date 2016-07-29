@@ -716,9 +716,17 @@ body {
 }
 
 .universities .sidebar {
+  position: absolute;
   height: 100vh;
+  padding-top: 50px;
   background-color: #eeeeee;
-  padding: 50px 0 0 50px;
+  -webkit-box-shadow: 5px 0px 27px 0px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow: 5px 0px 27px 0px rgba(50, 50, 50, 0.25);
+  box-shadow: 5px 0px 27px 0px rgba(50, 50, 50, 0.25);
+}
+
+.universities .sidebar #accordion {
+  margin: 0;
 }
 
 .universities .sidebar #accordion {
@@ -726,11 +734,10 @@ body {
 }
 
 .universities .content {
+  position: relative;
+  float: right;
   height: 100vh;
   overflow: auto;
-}
-
-.universities .content.land {
   background-image: url("assets/images/univ-land-bg.png");
   background-repeat: no-repeat;
   background-size: cover;

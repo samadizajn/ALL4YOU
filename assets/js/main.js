@@ -69,7 +69,7 @@ $window.resize(function resize() {
 
 })(jQuery);
 
-// Determine element (portraint or landscape) status by class, 
+// jQuery window load and resize funcion 
 (function($) {
 
 $( window ).on("load resize", function() {
@@ -88,6 +88,17 @@ $( window ).on("load resize", function() {
 		$('.slider').addClass('portrait'); 
 	}
 
+
+	// Find out element position function
+	var RelElement = $( ".header-navigation .navbar-brand" );
+	var RelElPos = RelElement.position();
+	
+	// Get width for sidebar based on relative element position
+	var SidebarWidth = RelElPos.left + 300;
+
+	$( ".universities .sidebar" ).css({"width": SidebarWidth, "padding-left": SidebarWidth - 300 });
+	$( ".universities .content" ).css({"width": winWidth - SidebarWidth, "padding-right": SidebarWidth - 300 });
+
 });
 
 })(jQuery);
@@ -101,6 +112,12 @@ $('.totoplink').click(function(){
  });
 
 })(jQuery);
+
+
+
+
+
+
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
