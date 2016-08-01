@@ -1,7 +1,7 @@
 {
   ".git/COMMIT_EDITMSG": {
     "size": 5,
-    "date": "2016-07-28T13:48:05.599Z"
+    "date": "2016-08-01T12:20:56.814Z"
   },
   ".git/config": {
     "size": 331,
@@ -12,8 +12,8 @@
     "date": "2016-07-21T08:10:20.901Z"
   },
   ".git/FETCH_HEAD": {
-    "size": 0,
-    "date": "2016-07-29T13:31:39.969Z"
+    "size": 99,
+    "date": "2016-08-01T14:09:19.030Z"
   },
   ".git/HEAD": {
     "size": 23,
@@ -56,20 +56,20 @@
     "date": "2016-07-21T08:10:24.600Z"
   },
   ".git/index": {
-    "size": 11240,
-    "date": "2016-07-28T13:48:06.372Z"
+    "size": 11360,
+    "date": "2016-08-01T12:20:57.680Z"
   },
   ".git/info/exclude": {
     "size": 240,
     "date": "2016-07-21T08:10:25.224Z"
   },
   ".git/logs/HEAD": {
-    "size": 9236,
-    "date": "2016-07-28T13:48:06.746Z"
+    "size": 9520,
+    "date": "2016-08-01T12:20:58.095Z"
   },
   ".git/logs/refs/heads/master": {
-    "size": 7732,
-    "date": "2016-07-28T13:48:07.093Z"
+    "size": 8016,
+    "date": "2016-08-01T12:20:58.469Z"
   },
   ".git/logs/refs/remotes/origin/master": {
     "size": 5150,
@@ -1189,7 +1189,7 @@
   },
   ".git/refs/heads/master": {
     "size": 41,
-    "date": "2016-07-28T13:48:07.433Z"
+    "date": "2016-08-01T12:20:58.827Z"
   },
   ".git/refs/remotes/origin/master": {
     "size": 41,
@@ -1208,8 +1208,8 @@
     "date": "2016-07-21T08:12:23.128Z"
   },
   "style.css": {
-    "size": 19558,
-    "date": "2016-07-29T13:31:41.259Z"
+    "size": 21133,
+    "date": "2016-08-01T14:09:19.727Z"
   },
   ".git/objects/2f/33d576661ce605b017a63670125b4c748f58ea": {
     "size": 1095,
@@ -1360,8 +1360,8 @@
     "date": "2016-07-21T19:00:33.467Z"
   },
   "assets/js/main.min.js": {
-    "size": 1725,
-    "date": "2016-07-29T13:31:40.474Z"
+    "size": 2068,
+    "date": "2016-08-01T14:09:19.352Z"
   },
   ".git/objects/0c/fb1efccfd38938e2357cc8d5ce4537622bd64c": {
     "size": 78,
@@ -2408,8 +2408,8 @@
     "date": "2016-07-28T13:13:20.612Z"
   },
   "universities.html": {
-    "size": 14246,
-    "date": "2016-07-29T13:31:41.876Z"
+    "size": 19241,
+    "date": "2016-08-01T14:09:20.125Z"
   },
   ".git/objects/09/5c39ccf1e3c35bb4679cd965549fb2ce6c21b9": {
     "size": 486,
@@ -2478,5 +2478,101 @@
   ".git/objects/e9/33d9afb25d233005dbd41c8df0e62eaff6f0d6": {
     "size": 4516,
     "date": "2016-07-28T13:48:05.295Z"
+  },
+  ".git/objects/09/b84910b25e4c6417a17ebbade4036fb1a0b29a": {
+    "size": 485,
+    "date": "2016-08-01T12:20:48.092Z"
+  },
+  ".git/objects/0c/be6dacfaadf7d28ec42598e7d49b67983f39ea": {
+    "size": 192,
+    "date": "2016-08-01T12:20:48.453Z"
+  },
+  ".git/objects/22/68217c4d433246b9d7cb8fb81b1cd4deb91ce7": {
+    "size": 629,
+    "date": "2016-08-01T12:20:48.827Z"
+  },
+  ".git/objects/26/811c7fa183ab90169083e10d289307c3d24636": {
+    "size": 2993,
+    "date": "2016-08-01T12:20:49.215Z"
+  },
+  ".git/objects/44/5d31b658cf2e2f630e93fc4e1346c64d4a3efa": {
+    "size": 192,
+    "date": "2016-08-01T12:20:49.541Z"
+  },
+  ".git/objects/47/31afb4d4d06e0bd5741837904a2028959fdfcc": {
+    "size": 149,
+    "date": "2016-08-01T12:20:49.873Z"
+  },
+  ".git/objects/52/277b20bc42f2c13ada6e0567020c7bf0aaded0": {
+    "size": 4585,
+    "date": "2016-08-01T12:20:50.194Z"
+  },
+  ".git/objects/5d/e226f3a97264ec76587cc849182dedd6663d86": {
+    "size": 149,
+    "date": "2016-08-01T12:20:50.611Z"
+  },
+  ".git/objects/60/4abcf9db1681fff74181aa0504fc16b8cb1702": {
+    "size": 720,
+    "date": "2016-08-01T12:20:50.916Z"
+  },
+  ".git/objects/68/c2d6888b7d412eb2ea4e54cd796343fb8a371e": {
+    "size": 1730,
+    "date": "2016-08-01T12:20:51.249Z"
+  },
+  ".git/objects/70/25364e36db933068ac00c37874c4b741908c6f": {
+    "size": 485,
+    "date": "2016-08-01T12:20:51.639Z"
+  },
+  ".git/objects/76/94c63ff9bbee9380dd8069c22559fce0ad25f6": {
+    "size": 4268,
+    "date": "2016-08-01T12:20:52.012Z"
+  },
+  ".git/objects/7e/1b624b491fd45b63e3a2c09857bf939c56582d": {
+    "size": 4905,
+    "date": "2016-08-01T12:20:52.388Z"
+  },
+  ".git/objects/85/97fcf443973330735ce578423d672993852c7e": {
+    "size": 1100,
+    "date": "2016-08-01T12:20:52.782Z"
+  },
+  ".git/objects/90/5fe8049c8280b3b6d7760ad30719f598a4b674": {
+    "size": 4579,
+    "date": "2016-08-01T12:20:53.112Z"
+  },
+  ".git/objects/a0/602940f715b326b0770dec4a2ef71e107930bb": {
+    "size": 1829,
+    "date": "2016-08-01T12:20:53.448Z"
+  },
+  ".git/objects/a2/e62406b7319a7689a1f142b0d7c3914a979575": {
+    "size": 2831,
+    "date": "2016-08-01T12:20:53.837Z"
+  },
+  ".git/objects/b6/68e02a0b62027891d66052b965e88ad758572b": {
+    "size": 77,
+    "date": "2016-08-01T12:20:54.206Z"
+  },
+  ".git/objects/ba/878b13256c88c60e6e6b6a548d1802418eadfe": {
+    "size": 1242,
+    "date": "2016-08-01T12:20:54.559Z"
+  },
+  ".git/objects/cb/cc7dabe87a8a847d7f90fdf3681774281c813c": {
+    "size": 22739,
+    "date": "2016-08-01T12:20:55.058Z"
+  },
+  ".git/objects/ce/b1fce88ea2ac741ca3570d9d1115a3f4704120": {
+    "size": 78,
+    "date": "2016-08-01T12:20:55.416Z"
+  },
+  ".git/objects/cf/6efd3102b0e06a36de1e181f431be6c4ada37e": {
+    "size": 327,
+    "date": "2016-08-01T12:20:55.770Z"
+  },
+  ".git/objects/eb/56fad30ae80d6ee5803aff1dc8a2ecf4af8190": {
+    "size": 651,
+    "date": "2016-08-01T12:20:56.104Z"
+  },
+  "assets/images/universities-sidebar-list-style-type.png": {
+    "size": 314,
+    "date": "2016-08-01T12:20:56.431Z"
   }
 }

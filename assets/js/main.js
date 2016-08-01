@@ -108,19 +108,15 @@ $( window ).on("load resize", function() {
 // Dynamic changing
 (function($) {
 
-$( window ).on("load resize", function() {
+$( window ).on("load resize", function () {
 
 	var SidebarHeight = $(".universities .sidebar").height();
 	var ContentHeight = $(".universities .content").height();
 
 	if ( SidebarHeight > ContentHeight ) {
-		$( ".universities .content" ).css({"min-height": SidebarHeight });
+		$( ".universities .content" ).css({"min-height": SidebarHeight + 100 });
+		$( ".universities .sidebar" ).css({"min-height": SidebarHeight + 100 });
 	}
-
-	if ( ContentHeight > SidebarHeight ) {
-		$( ".universities .sidebar" ).css({"min-height": ContentHeight });
-	}	
-
 });
 
 })(jQuery);
