@@ -11,6 +11,7 @@ jQuery( document ).ready(function( $ ) {
 	$(".LatestNews_block .blockContent ul li a.NewsLink").addClass("tranzited-200");
 	$(".Footer_nav ul li a").addClass("tranzited-200");
 	$(".content_block .feature_content a.ftvilink").addClass("tranzited-200");
+	$(".universities .sidebar #accordion .panel-body ul li a").addClass("tranzited-200");
 
 })(jQuery);
 
@@ -98,6 +99,27 @@ $( window ).on("load resize", function() {
 
 	$( ".universities .sidebar" ).css({"width": SidebarWidth, "padding-left": SidebarWidth - 300 });
 	$( ".universities .content" ).css({"width": winWidth - SidebarWidth, "padding-right": SidebarWidth - 300 });
+
+});
+
+})(jQuery);
+
+// Universities page, sidebar and content height 
+// Dynamic changing
+(function($) {
+
+$( window ).on("load resize", function() {
+
+	var SidebarHeight = $(".universities .sidebar").height();
+	var ContentHeight = $(".universities .content").height();
+
+	if ( SidebarHeight > ContentHeight ) {
+		$( ".universities .content" ).css({"min-height": SidebarHeight });
+	}
+
+	if ( ContentHeight > SidebarHeight ) {
+		$( ".universities .sidebar" ).css({"min-height": ContentHeight });
+	}	
 
 });
 

@@ -636,26 +636,81 @@ body
   height: auto  
 
 .universities .sidebar
-  position: absolute
-  height: 100vh
-  padding-top: 50px
+  position: relative
+  float: left
   background-color: #eee
   -webkit-box-shadow: 5px 0px 27px 0px rgba(50, 50, 50, 0.25)
   -moz-box-shadow:    5px 0px 27px 0px rgba(50, 50, 50, 0.25)
   box-shadow:         5px 0px 27px 0px rgba(50, 50, 50, 0.25)
 
 .universities .sidebar #accordion
-  margin: 0
+  margin: 50px 0
 
-.universities .sidebar #accordion
-  margin: 0
+.universities .sidebar #accordion .panel-default
+  border-radius: 0
+  box-shadow: none
+  border: none
+  background-image: none
+  background-color: transparent
 
+.universities .sidebar #accordion .panel-default>.panel-heading
+  background-image: none
+  background-color: transparent
+  border: none
+  border-radius: 0
+  color: $primary_color
+  border-top: 1px solid #ddd
+  // border-bottom: 1px solid #ddd
+  padding: 12px 20px 7px 20px
+
+.universities .sidebar #accordion .panel-title > a
+  font-size: 15px
+  font-weight: 700
+  line-height: 1.2
+  color: $primary_color
+  text-decoration: none
+
+.universities .sidebar #accordion .panel-title > a:after
+  font-family: 'FontAwesome'
+  content: "\f106"
+  float: right
+  font-size: 22px 
+  line-height: 17px
+
+.universities .sidebar #accordion .panel-title > a.collapsed:after
+  content: "\f107"
+
+
+.universities .sidebar #accordion .panel-default>.panel-heading+.panel-collapse>.panel-body
+  border: none
+  padding: 15px 30px
+
+.universities .sidebar #accordion .panel-body ul
+  list-style-type: none
+  margin: 0
+  padding: 0
+
+.universities .sidebar #accordion .panel-body ul li
+  text-align: left
+  background-image: url('assets/images/universities-sidebar-list-style-type.png')
+  background-repeat: no-repeat
+  background-position: 0 0
+  line-height: 1.3
+  padding: 2px 0 7px 20px
+
+.universities .sidebar #accordion .panel-body ul li a
+  color: $primary_color
+  cursor: pointer
+
+.universities .sidebar #accordion .panel-body ul li a:hover
+  color: $secondary_color
+
+.universities .sidebar #accordion .panel-body ul li a.active
+  font-weight: bold
 
 .universities .content
   position: relative
   float: right
-  height: 100vh
-  overflow: auto
   background-image: url("assets/images/univ-land-bg.png")
   background-repeat: no-repeat
   background-size: cover
@@ -702,7 +757,6 @@ body
   background-repeat: no-repeat
   background-position: center
   background-size: cover
-
 
 
 
