@@ -90,6 +90,8 @@ $( window ).on("load resize", function() {
 	}
 
 
+if ( winWidth > 764 ) {
+
 	// Find out element position function
 	var RelElement = $( ".header-navigation .navbar-brand" );
 	var RelElPos = RelElement.position();
@@ -100,9 +102,43 @@ $( window ).on("load resize", function() {
 	$( ".universities .sidebar" ).css({"width": SidebarWidth, "padding-left": SidebarWidth - 300 });
 	$( ".universities .content" ).css({"width": winWidth - SidebarWidth, "padding-right": SidebarWidth - 300 });
 
+	if ( winWidth < 1000 ) {
+		$( ".universities .sidebar" ).css({"width": SidebarWidth - 50, "padding-left": SidebarWidth - 300 });
+		$( ".universities .content" ).css({"width": winWidth - SidebarWidth + 50, "padding-right": SidebarWidth - 300 });
+	}
+}
+
+
 });
 
 })(jQuery);
+
+// jQuery slider slide function
+(function($) {
+
+$(".universities .sidebar .sidTrigger p.close").hide();
+
+$(".universities .sidebar .sidTrigger p.close").click(function(){
+	$(".universities .sidebar").animate({
+		left: - 325
+	});
+	$(this).hide();
+	$(".universities .sidebar .sidTrigger").css('left', '350px');
+	$(".universities .sidebar .sidTrigger p.open").show();
+});
+
+$(".universities .sidebar .sidTrigger p.open").click(function(){
+	$(".universities .sidebar").animate({
+		left: 0
+	});
+	$(this).hide();
+	$(".universities .sidebar .sidTrigger p.close").show();
+	$(".universities .sidebar .sidTrigger").css('left', '230px');
+});
+
+})(jQuery);
+
+
 
 // Universities page, sidebar and content height 
 // Dynamic changing
